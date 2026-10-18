@@ -14,7 +14,7 @@
 <p align="center">Animate characters and animatronics, then play the motion on real servos.</p>
 
 <p align="center">
-  <img alt="Alpha 0.1" src="https://img.shields.io/badge/release-Alpha%200.1-d29922">
+  <a href="https://github.com/JenkinsRobotics/Aether-Animation/releases/tag/v0.1.0-alpha.1"><img alt="Alpha 0.1" src="https://img.shields.io/badge/release-v0.1.0--alpha.1-d29922"></a>
   <img alt="Apache-2.0" src="https://img.shields.io/badge/license-Apache--2.0-58a6ff">
   <a href="https://jenkinsrobotics.github.io/Aether-Animation/"><img alt="Website" src="https://img.shields.io/badge/site-Aether--Animation-1f6feb"></a>
 </p>
@@ -34,6 +34,7 @@ Import a character or robot, define how it moves, animate it on a timeline and s
 - ✅ **Headless show playback** — Scenes play without the editor: clips, poses, waits, event gates, variables and branches, loops and deterministic parallel tracks.
 - ✅ **Hardware wire protocol** — A versioned wire protocol with a simulator and serial transport, so output can be proven before it reaches a servo.
 - ✅ **Web workspace** — The animation workspace on the shared Aether interface: viewport, pose panel, mate and relation dialogs and a timeline.
+- ✅ **Model Studio interface** — The shared Aether interface: a transparent document header, floating resizable side cards, a separate tool tray, saved layouts and themes — the same in every app.
 
 ### In progress
 
