@@ -1,0 +1,46 @@
+{
+  "source": "/Users/jonathanjenkins/GITHUB/Aether Studio",
+  "sourceRevision": "cebdbec87576b24050f627008252be0e833c25be",
+  "filteredCommits": 45,
+  "paths": [
+    [
+      "aether-animation/",
+      ""
+    ],
+    [
+      "aether_animation/",
+      "aether_animation/"
+    ],
+    [
+      "animacore/",
+      "aether_animation/"
+    ],
+    [
+      "examples/",
+      "examples/"
+    ],
+    [
+      "firmware/",
+      "firmware/"
+    ],
+    [
+      "pyproject.toml",
+      "pyproject.toml"
+    ],
+    [
+      "LICENSE",
+      "LICENSE"
+    ]
+  ],
+  "note": "Filtered current-branch history; current uncommitted source snapshot is preserved in the migration commit. Drive retains Studio ancestry because it was developed there. All original branches/tags remain in the original repository.",
+  "githubCheckoutAdoption": {
+    "source": "/Users/jonathanjenkins/GITHUB/Temp Aether/aether-animation",
+    "source_head": "ed715e62ea85a82b51715a50866f5a7cc9f3b57f",
+    "destination": "/Users/jonathanjenkins/GITHUB/Aether-Animation",
+    "destination_head": "566018736bc67422b998eac64f42bd8ef79c2457",
+    "origin": "https://github.com/JenkinsRobotics/Aether-Animation.git",
+    "template_backup": "/Users/jonathanjenkins/GITHUB/Temp Aether/github-import-backup-2026-10-10/Aether-Animation",
+    "date": "2026-10-10",
+    "note": "Source snapshot imported without replacing the destination .git. Original local history stays in Temp Aether; initial GitHub history remains the destination parent."
+  }
+}

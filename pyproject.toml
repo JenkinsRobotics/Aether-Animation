@@ -1,0 +1,51 @@
+# AnimaCore — the Anima animation engine (Python runtime).
+# The headless core the Mac app (app/, Swift) and the firmware author
+# for; see dev/docs/roadmap/ for the .anima format + wire protocol
+# contracts both implementations answer to.
+
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "aether_animation"
+description = "AnimaCore — the open animation engine: mechanism rigs, mates/DOF, kinematics, show execution, and hardware wire protocol for AI characters and animatronic robots."
+readme = "README.md"
+requires-python = ">=3.11,<3.13"
+dynamic = ["version"]
+dependencies = [
+    "pyyaml>=6",
+    "pyserial>=3.5",
+    "numpy>=1.26",  # DH2 inverse kinematics (Jacobian DLS); isolated to the IK path
+    # "jaeger-os>=0.9,<0.10",  # pin once JaegerOS integration lands
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=7", "ruff"]
+# 2D media rasterizer (aether_animation.raster): real image/sprite/gif/video decoders.
+# Optional — the core engine never imports aether_animation.raster.
+media = ["pillow>=10", "imageio>=2.34", "imageio-ffmpeg>=0.5"]
+# STEP tessellation for the front-ends' import pipelines
+# (unity/Tools/step_to_obj.py). Optional — the engine never parses geometry.
+cad = ["cascadio>=0.0.14", "trimesh>=4"]
+
+[tool.setuptools.dynamic]
+version = {attr = "aether_animation.__version__"}
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["aether_animation*"]
+
+[tool.pytest.ini_options]
+testpaths = ["aether_animation/tests"]
+pythonpath = ["."]
+
+[tool.ruff]
+line-length = 88
+target-version = "py311"
+# Sample artwork scripts ship as their authors wrote them; linting them only
+# buries real findings in noise from files nobody edits.
+extend-exclude = ["examples/assets"]
+
+[project.entry-points."aether.products"]
+animation = "aether_animation.host_service:AnimationService"

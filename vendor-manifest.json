@@ -1,0 +1,26 @@
+{
+  "release": "v0.1.0-alpha.1",
+  "packages": [
+    {
+      "path": "web/vendor/aether-assets-0.2.0-alpha.27.tgz",
+      "sha256": "4da03e06909bd6b4a8a3d6f5241995ae9e0fd959d0e71496f26798a7c5e989e0",
+      "asset": "4da03e06909b-aether-assets-0.2.0-alpha.27.tgz",
+      "bytes": 125176682,
+      "url": "https://github.com/JenkinsRobotics/Aether-Animation/releases/download/v0.1.0-alpha.1/4da03e06909b-aether-assets-0.2.0-alpha.27.tgz"
+    },
+    {
+      "path": "web/vendor/aether-session-0.2.0-alpha.153.tgz",
+      "sha256": "25e9689c0bb4ff571cdb5730baba4ec6586fa074aacfee758db79b25c772470b",
+      "asset": "25e9689c0bb4-aether-session-0.2.0-alpha.153.tgz",
+      "bytes": 32630,
+      "url": "https://github.com/JenkinsRobotics/Aether-Animation/releases/download/v0.1.0-alpha.1/25e9689c0bb4-aether-session-0.2.0-alpha.153.tgz"
+    },
+    {
+      "path": "web/vendor/aether-ui-0.2.0-alpha.145.tgz",
+      "sha256": "d95a543d1590117d6aadd82788b5576397497c6d04fdac3e68e3d88c93636055",
+      "asset": "d95a543d1590-aether-ui-0.2.0-alpha.145.tgz",
+      "bytes": 432914,
+      "url": "https://github.com/JenkinsRobotics/Aether-Animation/releases/download/v0.1.0-alpha.1/d95a543d1590-aether-ui-0.2.0-alpha.145.tgz"
+    }
+  ]
+}

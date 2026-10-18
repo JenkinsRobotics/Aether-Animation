@@ -1,0 +1,2692 @@
+{
+  "repository": "https://github.com/JenkinsRobotics/Aether-Animation",
+  "tag": "v0.1.0-alpha.1",
+  "base_commit": "566018736bc67422b998eac64f42bd8ef79c2457",
+  "source_files": [
+    {
+      "path": ".github/workflows/frontend.yml",
+      "sha256": "64858ee15b46a5d5812a7bb3fa03480f056afe7ec34de5664cc0d2e5ca8e5e8f",
+      "bytes": 417
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "545cd6065976a43a5bfe7cee8099e4b3c2a49e17d96e5455f689c729c841d1d6",
+      "bytes": 457
+    },
+    {
+      "path": "AGENTS.md",
+      "sha256": "5e33e73c8d45729ef7d85ad4e9af73d4e0f7e5d5df05d253ece8617d31defff5",
+      "bytes": 2953
+    },
+    {
+      "path": "ALPHA_0_1.md",
+      "sha256": "debc1053b10b0c0caec2bc8a1cebc5411ef5568cd6302481631c1793caf5307b",
+      "bytes": 2061
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "bytes": 11357
+    },
+    {
+      "path": "LOCAL_DEVELOPMENT.md",
+      "sha256": "e6b1a6db2e05774144bc2ece5447ab44fa0d640fda0824e73b6bb7cba3a336b3",
+      "bytes": 420
+    },
+    {
+      "path": "Launcher/build-launcher.sh",
+      "sha256": "c236de87b45eb648316f0eb593c59599d97b48df11b32a49b9b8c89b818b3204",
+      "bytes": 206
+    },
+    {
+      "path": "Launcher/main.swift",
+      "sha256": "2e536f1961c7f7d61bf32d506fe32929461d5e25139b7c1324d8215da835c11f",
+      "bytes": 3408
+    },
+    {
+      "path": "MIGRATION.md",
+      "sha256": "379b09a9fea3119be7e8f1abd4170226b0b718d2df7bdb08d9a0c89648f70fca",
+      "bytes": 1160
+    },
+    {
+      "path": "README.md",
+      "sha256": "81775e7f88b3e2011b30a26c17787bc10b29936ef92bff0bf0d53fdae62dda52",
+      "bytes": 10352
+    },
+    {
+      "path": "README.pre-split.md",
+      "sha256": "ad292972cc9deda9fcedec0f9e232080b6eb4d1195bf77b890c567a0d4d2247c",
+      "bytes": 2082
+    },
+    {
+      "path": "SOURCE_HISTORY.json",
+      "sha256": "33f97c548da901d2e952ee36b3a015000a8e8407a19d49ba0e0346ce6c7b2011",
+      "bytes": 1498
+    },
+    {
+      "path": "aether_animation/__init__.py",
+      "sha256": "b9ac0bc0e23ac4f09d38e5a41f13ec47bdde5cc155a4a14feaa988ee7ecf2352",
+      "bytes": 462
+    },
+    {
+      "path": "aether_animation/__main__.py.example",
+      "sha256": "ff32be3a26ba86690e5226dd8c69edb5168e2fc4b84afe5a2d5233a5a6ec14f0",
+      "bytes": 938
+    },
+    {
+      "path": "aether_animation/aether_project.py",
+      "sha256": "5fa09332e925160d6ca3bc2a3fcbfbdb5fd7bb5ba32e97af0b7a22d63425c866",
+      "bytes": 4737
+    },
+    {
+      "path": "aether_animation/aether_workspace.py",
+      "sha256": "5e4b7256f6614beaeb4b062fe57fab636167443749092a15b8cb8c834f4f0445",
+      "bytes": 75815
+    },
+    {
+      "path": "aether_animation/asset_catalog.py",
+      "sha256": "bb1ee722fb44d83f23bf291c9c1ec6de0d2c3c15dfd8ba09696ce853bb8f3168",
+      "bytes": 2610
+    },
+    {
+      "path": "aether_animation/asset_props.py",
+      "sha256": "294d12d053d9aee6ace044d0bc39e219f19ccb4119560f5d0a204ced9ae397e9",
+      "bytes": 6257
+    },
+    {
+      "path": "aether_animation/bridge.py",
+      "sha256": "3e3e4bfedb9f14c85c7d7bd16499883cb9a57a58f86eac9e7106d43a7cc14a25",
+      "bytes": 71255
+    },
+    {
+      "path": "aether_animation/canvas2d.py",
+      "sha256": "d23ae274dccf06078ae5f6367a05a3720d682d4a15f278a09afbf65661ea3511",
+      "bytes": 10639
+    },
+    {
+      "path": "aether_animation/canvas2d_io.py",
+      "sha256": "ed1854c3a7c8576c64c756e542cb859024e2f0be37c0453e2afd265a4f7b0ed3",
+      "bytes": 5510
+    },
+    {
+      "path": "aether_animation/config.py.example",
+      "sha256": "7fe2fb536f89c2e16080e6d56349794f0d62fcd05051e0a8ef226f8aa6d959c5",
+      "bytes": 1450
+    },
+    {
+      "path": "aether_animation/dh.py",
+      "sha256": "919616ec8553fa201ecaf8cedc12eb21de5c6354a437c76b27e07fb528fc2ea0",
+      "bytes": 17266
+    },
+    {
+      "path": "aether_animation/docs/DESIGN.md.example",
+      "sha256": "e84913dd19036e4f09060c6385c324253a74040a0fb2764a658cc7b464f975fd",
+      "bytes": 1373
+    },
+    {
+      "path": "aether_animation/extensions.py",
+      "sha256": "be260759b3825eb3563b6c70cb00ddf9fa28aaaa2855b026d5a4bee041085632",
+      "bytes": 23145
+    },
+    {
+      "path": "aether_animation/features.py",
+      "sha256": "40fd1b3c8f2286fc62c9d46371b9cdb2eefa7879c4d53a15ac5f8001e0c75694",
+      "bytes": 33554
+    },
+    {
+      "path": "aether_animation/frame_output.py",
+      "sha256": "1253965ef58cbfd8f81f03f8a47700e7943321ae8b0223cc86f21b4e09e03c63",
+      "bytes": 5919
+    },
+    {
+      "path": "aether_animation/frame_serial.py",
+      "sha256": "04a781fc711ef8e9b8883273342cca8a50c836d5f5c86f321654694ec80427f4",
+      "bytes": 4054
+    },
+    {
+      "path": "aether_animation/host_service.py",
+      "sha256": "b7c487b99627ebb25b932230afb7d7fa1b5f96d1a9e6172b5df165b6e58c2bad",
+      "bytes": 1741
+    },
+    {
+      "path": "aether_animation/httpbridge.py",
+      "sha256": "53aa7e8eecf24ce7294499c246013aa81162bfdd79d607d75c08477d6a0a76ed",
+      "bytes": 7247
+    },
+    {
+      "path": "aether_animation/kinematics.py",
+      "sha256": "2aa7caa158e01ccc8b1e4dd0722af3b013aa4b7236f8acc4b918c8119c85e3c3",
+      "bytes": 23470
+    },
+    {
+      "path": "aether_animation/loader.py",
+      "sha256": "6223d15613dcd587fdf4d927245532b9adbd9874479bf53fea38e2a14a3e717f",
+      "bytes": 53911
+    },
+    {
+      "path": "aether_animation/mates.py",
+      "sha256": "9fed73dd2fb8c404ae0f9d27eb15b477369c7c457a61035d058356aab61e8b6c",
+      "bytes": 24067
+    },
+    {
+      "path": "aether_animation/module.yaml.example",
+      "sha256": "4eb5d02974cf01b73b72a03d9fc7f8c968d3fa781bf31502a7ce28f0c47dc10f",
+      "bytes": 4388
+    },
+    {
+      "path": "aether_animation/native_render.py",
+      "sha256": "30da51d005c617d6e1ac4b26b4b927372df94b8993b118ef1218fdb905ec9b56",
+      "bytes": 8348
+    },
+    {
+      "path": "aether_animation/native_worker.py",
+      "sha256": "b423852c5779e01e834dedc73f74e0d868925ccb17c9e851a54330e56ea91675",
+      "bytes": 3556
+    },
+    {
+      "path": "aether_animation/node.py.example",
+      "sha256": "9ce361d789e1f1f2edb594597fe312489ae64f1678ffc9af6d024841a339adbe",
+      "bytes": 5903
+    },
+    {
+      "path": "aether_animation/outputs.py",
+      "sha256": "bf8dd5ad46ca67f201e2b90f52d1e3477d0807fdd1b46f06dc4677003cfe7077",
+      "bytes": 4868
+    },
+    {
+      "path": "aether_animation/pack.py",
+      "sha256": "6989ca2984ba04df0dace9f378181099836a0a2e15ac395a2f9556bd94d3bc90",
+      "bytes": 4017
+    },
+    {
+      "path": "aether_animation/raster/__init__.py",
+      "sha256": "63aed8f7e962484a13ff8b7c504e241542fb2b403dfdeaac1781f4e85437b580",
+      "bytes": 1361
+    },
+    {
+      "path": "aether_animation/raster/base.py",
+      "sha256": "dc8c76c5b379156a01600c80d7deff47282221ece16364716d0d2fd5ca3ceddd",
+      "bytes": 2177
+    },
+    {
+      "path": "aether_animation/raster/bitmap_adapter.py",
+      "sha256": "a8703668d2bbb5038029d0c57d63d19aa13ffae7897771fa59bc9c5aa4b30cd4",
+      "bytes": 3680
+    },
+    {
+      "path": "aether_animation/raster/confined_video.py",
+      "sha256": "15b348e18a69b9eb57cfcd8bc8aede2759f87c6cc0a619252206f4554de3e1d3",
+      "bytes": 3840
+    },
+    {
+      "path": "aether_animation/raster/faces/__init__.py",
+      "sha256": "dfcba49dc0776d5384d492fb5f8bb65b29d50d5675002771a0f0d3551c826702",
+      "bytes": 147
+    },
+    {
+      "path": "aether_animation/raster/faces/simple_face.py",
+      "sha256": "6e7926c18e4b0eb236173a05c57df60b2cbb40dd5037c9d86ff7a67b7f78a8f1",
+      "bytes": 5749
+    },
+    {
+      "path": "aether_animation/raster/frame.py",
+      "sha256": "e0c0ba32564c8853a1d3c2424f5b23756640c73b3509103c5b7e44ca80082a4e",
+      "bytes": 3517
+    },
+    {
+      "path": "aether_animation/raster/gif_adapter.py",
+      "sha256": "22e3b5793cf9cef349a30db1e2c42a9b716aee0b5d4f499903ee1d954e071bf6",
+      "bytes": 3901
+    },
+    {
+      "path": "aether_animation/raster/image_adapter.py",
+      "sha256": "99c161369bd98ca3bc0f2ba022196dd50bdadfc6a5852a41220bf5fd80cb6d2c",
+      "bytes": 3926
+    },
+    {
+      "path": "aether_animation/raster/mscript.py",
+      "sha256": "edae5687dad515f78ab206ff5cbce6de8a8b251ba58001ef0bf29a75e89fb29f",
+      "bytes": 8330
+    },
+    {
+      "path": "aether_animation/raster/mscript_runner.py",
+      "sha256": "0472c7af38aee974b0398d28c43eb556bdda7220d68dad56205367b4a4e68cb7",
+      "bytes": 3445
+    },
+    {
+      "path": "aether_animation/raster/player.py",
+      "sha256": "005080a07c20f7ced672c5c419a0a0c71f53e26975bba9642c23cc6c3e707de1",
+      "bytes": 5587
+    },
+    {
+      "path": "aether_animation/raster/preview.py",
+      "sha256": "cab349b1d4466ec3b74baf5f624b54fc661e313c394a95e2ac4052ed511cbb62",
+      "bytes": 6991
+    },
+    {
+      "path": "aether_animation/raster/procedural.py",
+      "sha256": "73d8031c51f4ac8f1412587e746b2c90614f1ea808cac6b2458d13f47deff081",
+      "bytes": 3360
+    },
+    {
+      "path": "aether_animation/raster/registry.py",
+      "sha256": "124fce263ed0ce1ea0640ba403ef641b39be61741fd87492cdcf8399c667a3d8",
+      "bytes": 1391
+    },
+    {
+      "path": "aether_animation/raster/skin_compositor.py",
+      "sha256": "bb0eee6f4222344d68ad9d61d6aea739092b37bda57c5c74cf8b80bbd4aba3bb",
+      "bytes": 1322
+    },
+    {
+      "path": "aether_animation/raster/sprite_adapter.py",
+      "sha256": "90ebe3429908ba0d3a642178152349b42cc06c0dd2b99b4a122a86187520aec6",
+      "bytes": 4049
+    },
+    {
+      "path": "aether_animation/raster/video_adapter.py",
+      "sha256": "01804c746a0d697e7061437cf710e7cff9f8c417590d106600574fa6fc03a4e1",
+      "bytes": 2367
+    },
+    {
+      "path": "aether_animation/relation_kinds.py",
+      "sha256": "ede2460d9552cdcbeed7bf7057abba21c63e83a4478c66222e2277e7c164b031",
+      "bytes": 737
+    },
+    {
+      "path": "aether_animation/rig.py",
+      "sha256": "557b47edfdda4559ee57932c01eb1d64b6cf08bb5547c6874d1c04137c972477",
+      "bytes": 47673
+    },
+    {
+      "path": "aether_animation/scene.py",
+      "sha256": "efd716113fb68fbee5f5ff53dd6c85e7c1e508ead507e98ccf1ec369b7da37b2",
+      "bytes": 77775
+    },
+    {
+      "path": "aether_animation/serial_transport.py",
+      "sha256": "79c5066b96f51d48abe7e234c865fd325721afcdacc4476a3a9f786a549b5ebe",
+      "bytes": 8484
+    },
+    {
+      "path": "aether_animation/serialize.py",
+      "sha256": "9560a2bb99909aab87af24616ddeebc319c5a7768b83e85bd6c04cde81409013",
+      "bytes": 23268
+    },
+    {
+      "path": "aether_animation/sim.py",
+      "sha256": "45447c8801cd4d955e6ff0560f859170df8031abf715bda537dec6dbcdf8ed04",
+      "bytes": 10021
+    },
+    {
+      "path": "aether_animation/skin.py",
+      "sha256": "77cb88bc11190fdd9109adad6b84139095a1cbc0482b784c7a3a2c78284cb2f4",
+      "bytes": 3330
+    },
+    {
+      "path": "aether_animation/tests/fixtures/import_units/CentimeterTriangle.obj",
+      "sha256": "669f0a87346bc1fcebad99f0683892833e9742a6defffd12388ac2a0a0b8fc80",
+      "bytes": 58
+    },
+    {
+      "path": "aether_animation/tests/fixtures/import_units/MillimeterTriangle.stl",
+      "sha256": "5868938e955332e8115a373ccda52938ea4a8bb38f6d60d2f66de62793fd355f",
+      "bytes": 177
+    },
+    {
+      "path": "aether_animation/tests/fixtures/import_units/README.md",
+      "sha256": "450049bbf74fc3978edd91caea53e46aec3b4fc12f7419599a2b6562ebd90908",
+      "bytes": 671
+    },
+    {
+      "path": "aether_animation/tests/fixtures/import_units/SimpleRobot.usda",
+      "sha256": "b7582c3e16cbf718b284b77a968fe687330c5a23af3b6d0b7037c22a789578aa",
+      "bytes": 882
+    },
+    {
+      "path": "aether_animation/tests/test_asset_catalog.py",
+      "sha256": "9ed3ce57d09ffbdb278399de4ff7a81262d537625e006f1d23766f5d121b29cc",
+      "bytes": 1467
+    },
+    {
+      "path": "aether_animation/tests/test_asset_props.py",
+      "sha256": "186c95d8340a6fed21010f215ee87fb02eb4fde649d417888c77c5321a4ea8f3",
+      "bytes": 2063
+    },
+    {
+      "path": "aether_animation/tests/test_bridge.py",
+      "sha256": "8bc91eb891215bc27e26376b195355cc995477853317c0efc1c0ce3f7ee4692d",
+      "bytes": 43150
+    },
+    {
+      "path": "aether_animation/tests/test_bridge_aether_workspace.py",
+      "sha256": "2a8cbf06b390f5028150399a4c436553288431dd81784805aa6a107677d502c2",
+      "bytes": 29061
+    },
+    {
+      "path": "aether_animation/tests/test_bridge_canvas2d.py",
+      "sha256": "a551420cc8e3105635e2ada4a9d0cd6cda7139240240c14f962bb9ec4579b023",
+      "bytes": 6363
+    },
+    {
+      "path": "aether_animation/tests/test_canvas2d.py",
+      "sha256": "7611c997b06c142025a595cb3ef4963fef66c65aa52b75d6f285f7eced7dea70",
+      "bytes": 6103
+    },
+    {
+      "path": "aether_animation/tests/test_canvas2d_io.py",
+      "sha256": "572e31994f5076b0c13e32b3e52e4a2d7ae40495970b3564f573298786bfbe49",
+      "bytes": 2693
+    },
+    {
+      "path": "aether_animation/tests/test_dh.py",
+      "sha256": "a54784757d64788c8234e5bc24bcf033dc275b47ebc632a882d22873f50c20b4",
+      "bytes": 16208
+    },
+    {
+      "path": "aether_animation/tests/test_example_2d_media.py",
+      "sha256": "d81c4a535ef1616878495df965db0d0ef6a505239f4fefbe2f789da944ed3838",
+      "bytes": 1774
+    },
+    {
+      "path": "aether_animation/tests/test_extensions.py",
+      "sha256": "05aa0beb7b8be5c7cf0829eb008fc858e988413fc5ed3083d8b7e540dbcfb567",
+      "bytes": 18100
+    },
+    {
+      "path": "aether_animation/tests/test_features.py",
+      "sha256": "0a86aa7354a0b7cc62bb94e9c85c00dd96939bc2b70ce95d6b2670a5f1bb5523",
+      "bytes": 31276
+    },
+    {
+      "path": "aether_animation/tests/test_frame_output.py",
+      "sha256": "349e209004c20ff24120dde9caab633ffbe159124d495cfab4a41ea731f8b793",
+      "bytes": 2769
+    },
+    {
+      "path": "aether_animation/tests/test_frame_serial.py",
+      "sha256": "23d138b3cd4200e23677add4910fe520d8b019df019de7ba8ad12c3e954e9ac1",
+      "bytes": 1940
+    },
+    {
+      "path": "aether_animation/tests/test_httpbridge.py",
+      "sha256": "5ed4b7f7d6b477d33e86529e7a28aea1a3b4a43dbaa5603634ab8c137bec7b1f",
+      "bytes": 7248
+    },
+    {
+      "path": "aether_animation/tests/test_kinematic_chain.py",
+      "sha256": "168b257ca8cefc3a1030a29ba8aea87f605811f9b6ae0c25d3634742735b8e1f",
+      "bytes": 14808
+    },
+    {
+      "path": "aether_animation/tests/test_kinematics.py",
+      "sha256": "a8da81be91a0c26bef84f0e49375daf4c50bdab9a319f23220d889c882950775",
+      "bytes": 19723
+    },
+    {
+      "path": "aether_animation/tests/test_loader.py",
+      "sha256": "96aa7ae8e83d16b27dcb7685f0bf055fe64d5b537409e199390ceec5bc71d469",
+      "bytes": 44206
+    },
+    {
+      "path": "aether_animation/tests/test_mates.py",
+      "sha256": "c66d595f49cf2f263c99dfd796e7724839422bacd903e1a04999314a5aaaeb2b",
+      "bytes": 14190
+    },
+    {
+      "path": "aether_animation/tests/test_module_contract.py.example",
+      "sha256": "fdf91fdf0b67100a6c9b1b9d382d5bcbe720ba2dd90aef5ebf59f8576c91e1c2",
+      "bytes": 3042
+    },
+    {
+      "path": "aether_animation/tests/test_mscript.py",
+      "sha256": "eebb4a10e1567cb3a256462c60be1b2f66b514901a42186d9042ae0cd862b4cd",
+      "bytes": 2643
+    },
+    {
+      "path": "aether_animation/tests/test_mscript_runner.py",
+      "sha256": "381eb123694984f7bb1c434ed67cb25ca33f69e3cccac2ed9495b51c1c3a093a",
+      "bytes": 1622
+    },
+    {
+      "path": "aether_animation/tests/test_native_render.py",
+      "sha256": "d127e7ed222bae7ba8e80b3db3a0d642cd9e4d8154d8043b70ccae51ef5110a4",
+      "bytes": 6175
+    },
+    {
+      "path": "aether_animation/tests/test_object_states.py",
+      "sha256": "f987acb428a272324974481549eee6495ea00da0f903a36abdb22815e364893b",
+      "bytes": 13763
+    },
+    {
+      "path": "aether_animation/tests/test_outputs.py",
+      "sha256": "acbc8d270962470f8bb568fb805e34daf3e7fc35312cea127c7117013a85b85e",
+      "bytes": 5122
+    },
+    {
+      "path": "aether_animation/tests/test_pack.py",
+      "sha256": "c1ca5dacfd8564eeec1dc7687bb0d384d386ae6ba8977163fb46b1f325776cbe",
+      "bytes": 1856
+    },
+    {
+      "path": "aether_animation/tests/test_part_rest_transform.py",
+      "sha256": "a1b854549bc9ffba2691502356eddce76be0bd1b93b2512de5d64832a817c47f",
+      "bytes": 8375
+    },
+    {
+      "path": "aether_animation/tests/test_preview.py",
+      "sha256": "b73f4136972083f6035193f12b271b9c3bac53e057f5b76d16616e51816c68c9",
+      "bytes": 1672
+    },
+    {
+      "path": "aether_animation/tests/test_raster.py",
+      "sha256": "6647b8323aff536f71be1a4c0c0ee635309773ec2b7eb4a48d1a10595b14cbde",
+      "bytes": 9420
+    },
+    {
+      "path": "aether_animation/tests/test_rig.py",
+      "sha256": "89c3693f7120100039aa6130407146cdd24a556ffcad06e0ad4bcd22fccbcf9b",
+      "bytes": 43750
+    },
+    {
+      "path": "aether_animation/tests/test_scene.py",
+      "sha256": "829cd576a62758e3c7d399e8e14867ca41580975b1c3494538092788c18fdae5",
+      "bytes": 85376
+    },
+    {
+      "path": "aether_animation/tests/test_serial_transport.py",
+      "sha256": "4564fb4306a9e847e487f82733a3fe12d35c6bfb4ac36b41fc74ae66a33d3428",
+      "bytes": 11564
+    },
+    {
+      "path": "aether_animation/tests/test_serialize.py",
+      "sha256": "6c8ec76a7c5d98c8b9a2620dd260e497c0f39a75002d603290145f3f2a4ca956",
+      "bytes": 12634
+    },
+    {
+      "path": "aether_animation/tests/test_sim.py",
+      "sha256": "f9d3aca34b61aadbe95cf1bc56ba39a7f2e8f34a487f8f51ed350a47e300b5ee",
+      "bytes": 12827
+    },
+    {
+      "path": "aether_animation/tests/test_skin.py",
+      "sha256": "c91fdfe3fafe30e78f4c506755401aaf9fdb5cbb1d1bcfc0134c4c88e4ba847f",
+      "bytes": 2147
+    },
+    {
+      "path": "aether_animation/tests/test_tracking.py",
+      "sha256": "731349e79707538dbc088eae994f09831b5b3dd7738915f7713fbaddb42ef5ae",
+      "bytes": 1850
+    },
+    {
+      "path": "aether_animation/tests/test_tracks.py",
+      "sha256": "9a664ed547008d7e23bc1f61ef3a33349fc2649e18781bb0f81eebcb6263467e",
+      "bytes": 4131
+    },
+    {
+      "path": "aether_animation/tests/test_wire.py",
+      "sha256": "9073a0f744edd82f01ad50bb168f5e5d98378cfada0b29fb340d16a5bb4d68cc",
+      "bytes": 3309
+    },
+    {
+      "path": "aether_animation/tests/test_workspace_part_versions.py",
+      "sha256": "25ebd4295c2513e17686065ad5b59e4f7e2e6ac40ada8817ef4bb93bc10eaed3",
+      "bytes": 1444
+    },
+    {
+      "path": "aether_animation/tracking.py",
+      "sha256": "c876ef21d948b6598b41ab26ca00b767cdc0035e6f4fc1137956497563a2134c",
+      "bytes": 4143
+    },
+    {
+      "path": "aether_animation/tracks.py",
+      "sha256": "b4452cc270ad20219546ccc5c2775de2730b3dfee6f93c772cf0d79717f3605f",
+      "bytes": 3707
+    },
+    {
+      "path": "aether_animation/wire.py",
+      "sha256": "955cbdea84f5dd6f98ccb5583e2ad0f135d7c39a7083a5e7bbc480405f241cda",
+      "bytes": 4581
+    },
+    {
+      "path": "assets/branding/README.md",
+      "sha256": "793bb842901f36373d07088caf5602149110b29f72cebf6b54a3a7d9db0b5d38",
+      "bytes": 488
+    },
+    {
+      "path": "assets/branding/aether-animation-icon.png",
+      "sha256": "269afc0f85924c3ba00f8c5cc38bf573005b4841427768cb59ad888d2cc6941a",
+      "bytes": 420714
+    },
+    {
+      "path": "assets/branding/aether-animation-mark.png",
+      "sha256": "cfd46e8d2f1755dafcee12e59d0f68499f68efda4bc939b82101810c032e0491",
+      "bytes": 223661
+    },
+    {
+      "path": "assets/branding/aether-animation-wordmark-dark.png",
+      "sha256": "029e9cd5148b7fafc9d0af7161372b8f27743b1d251f8acf92971df5bff961a5",
+      "bytes": 93276
+    },
+    {
+      "path": "assets/branding/aether-animation-wordmark-dark.svg",
+      "sha256": "4f435b804beff7aa33cec1e354a956a6121426d3147fa061d02304a709c1e422",
+      "bytes": 1284426
+    },
+    {
+      "path": "assets/branding/aether-animation-wordmark-light.png",
+      "sha256": "2b10367757c7dab63bcc6c15d0b68455a6e014762603aaea42a183a3edc8d3d9",
+      "bytes": 95262
+    },
+    {
+      "path": "assets/branding/aether-animation-wordmark-light.svg",
+      "sha256": "d7f267b639cf583297ad4d4d863a236d40e166e565d473c4856e9135f20c2c41",
+      "bytes": 1284426
+    },
+    {
+      "path": "assets/branding/suite/aether-animation-icon.png",
+      "sha256": "2b720287e067dd980af65ed92f0ee3acab61a7ba6be496a5b102d356f9af4ac9",
+      "bytes": 31443
+    },
+    {
+      "path": "assets/branding/suite/aether-cad-icon.png",
+      "sha256": "5f58618bbab39724be096e742b042eae7120903df243ff7c261c92f4c1bbb072",
+      "bytes": 26059
+    },
+    {
+      "path": "assets/branding/suite/aether-io-icon.png",
+      "sha256": "4af9d378668ffdfbbef333dd376a01580918aec6c7a25d957b85288176eb0bbb",
+      "bytes": 26799
+    },
+    {
+      "path": "assets/branding/suite/aether-map-icon.png",
+      "sha256": "514948228d66ee7a807199a1b9f5b649a82e09b3a419b2dc5594377ab3a61275",
+      "bytes": 32975
+    },
+    {
+      "path": "assets/branding/suite/aether-sketch-icon.png",
+      "sha256": "bc7ad975464954bff833fc1ced0dcf62fdeaf3470a8cb33d927ec48ab4a01278",
+      "bytes": 28716
+    },
+    {
+      "path": "assets/branding/suite/aether-studio-icon.png",
+      "sha256": "8152788f67a6d1c9e093c6f0ed3dde32062f3ce0368490b836586c7974ca4c60",
+      "bytes": 24689
+    },
+    {
+      "path": "assets/branding/suite/aether-vector-icon.png",
+      "sha256": "54a6a1791bec3088d78209a03ffabaec05590e8a0864bb654d47514c569a4b74",
+      "bytes": 24738
+    },
+    {
+      "path": "examples/README.md",
+      "sha256": "1178e83a9e2a1f8c60dabcb5a628a90cf227b49765b027b2847303d8533e35ce",
+      "bytes": 934
+    },
+    {
+      "path": "examples/assets/2d/CATALOG.json",
+      "sha256": "6fe903091b9384e426c1b5da2d542a9ab7f73c4d120f2f20fe5a33ef526bc10e",
+      "bytes": 52641
+    },
+    {
+      "path": "examples/assets/2d/README.md",
+      "sha256": "beae80779226c801e88923eb2777baf0efba6c3262f140a58a4b3edc544ba58c",
+      "bytes": 3047
+    },
+    {
+      "path": "examples/assets/2d/animations/closed.json",
+      "sha256": "d2427f8de2fce035437110403376b20c676979ae0f157198cc750a38633ae1e8",
+      "bytes": 387
+    },
+    {
+      "path": "examples/assets/2d/animations/closed.props.yaml",
+      "sha256": "de579f00a132730f0dab32dc3e70161bf78d92d3d1a99286c60a53cb05aed7cd",
+      "bytes": 803
+    },
+    {
+      "path": "examples/assets/2d/animations/happy_blink.json",
+      "sha256": "e4f255648ab6e43bb01a4ae83f409200baf71ca9ac9339b2c6732d76a0a9ab34",
+      "bytes": 359
+    },
+    {
+      "path": "examples/assets/2d/animations/happy_blink.props.yaml",
+      "sha256": "af3dc51034134277969b28230c968558c727dae7acd7593940bf2cee716b4f1f",
+      "bytes": 588
+    },
+    {
+      "path": "examples/assets/2d/animations/look_down.json",
+      "sha256": "7eeea8d70954183c0e18673dac1a2bb7ac5c51369a70dd59fbd0986722904003",
+      "bytes": 370
+    },
+    {
+      "path": "examples/assets/2d/animations/look_down.props.yaml",
+      "sha256": "9652ccecddbbfc6b962b4e946e88d2fe10cbd96c78264689ce21c514b7f2dbba",
+      "bytes": 815
+    },
+    {
+      "path": "examples/assets/2d/animations/look_up.json",
+      "sha256": "de4fa6563f5f654a688afbd221fa635801b18643c4445bafff13932bd102e55f",
+      "bytes": 368
+    },
+    {
+      "path": "examples/assets/2d/animations/look_up.props.yaml",
+      "sha256": "44924695516068a50bbbebcd3b9b4c48f566eb863d0de7744212bc24eacd5eed",
+      "bytes": 811
+    },
+    {
+      "path": "examples/assets/2d/animations/neutral_blink.json",
+      "sha256": "f8c0d3a05d8c867e0b39c57c6a203695a3a97f4717545ab2dbb3736535f56a49",
+      "bytes": 369
+    },
+    {
+      "path": "examples/assets/2d/animations/neutral_blink.props.yaml",
+      "sha256": "7bb4c406f3aee90652233da2d91445e19b69adab647ab5d8cffa56144ab1bbd8",
+      "bytes": 824
+    },
+    {
+      "path": "examples/assets/2d/animations/sad_blink.json",
+      "sha256": "f14350188e4f76fd40dc049953a4b694f8b8192e4b6984e74bdc439de9c032c0",
+      "bytes": 363
+    },
+    {
+      "path": "examples/assets/2d/animations/sad_blink.props.yaml",
+      "sha256": "34324cf2d0b3da51116f01794df002713c337f69277a416d9035311cd322eae1",
+      "bytes": 804
+    },
+    {
+      "path": "examples/assets/2d/bitmaps/2.json",
+      "sha256": "e346c339eca16d25d2697011d2756ae71d59fe5dadc4ed908a50821d05194f9f",
+      "bytes": 5685
+    },
+    {
+      "path": "examples/assets/2d/bitmaps/2.props.yaml",
+      "sha256": "e421fa7622b854ac444df183dcf7868483531a566d4d7942b9aaab9cf73725a6",
+      "bytes": 750
+    },
+    {
+      "path": "examples/assets/2d/bitmaps/eye_sprites.json",
+      "sha256": "d2cb40d5ee14b2cca127281014a1757820f78169deb9e19212575d26b7b85e18",
+      "bytes": 75928
+    },
+    {
+      "path": "examples/assets/2d/bitmaps/eye_sprites.props.yaml",
+      "sha256": "1eecf0aca9ba675871d8f2bdb6ba45e27c08824074093613e33d3eed9133577e",
+      "bytes": 775
+    },
+    {
+      "path": "examples/assets/2d/bitmaps/test_bitmap_data.json",
+      "sha256": "ef81421be60950eaf63f25bc07ef74fd6e2ee67edffb219afc4da55e5a227dae",
+      "bytes": 3512
+    },
+    {
+      "path": "examples/assets/2d/bitmaps/test_bitmap_data.props.yaml",
+      "sha256": "c232f3870ab9127c9db3dd5aec7101af5e5c9a6dd53746eb84e88eefdb10ef68",
+      "bytes": 786
+    },
+    {
+      "path": "examples/assets/2d/bitmaps/wink_closed.json",
+      "sha256": "1c6cc8d6888d8572383064687b7fc0b2755f36a24b9ef1ba47e06d002d951c0d",
+      "bytes": 139
+    },
+    {
+      "path": "examples/assets/2d/bitmaps/wink_closed.props.yaml",
+      "sha256": "7eeedfab7f511f3417896cfb670838930b25e7587bba885ae3904e97de8eace3",
+      "bytes": 776
+    },
+    {
+      "path": "examples/assets/2d/bitmaps/wink_open.json",
+      "sha256": "f13c2cffaa4d9ae0cb70e23bfa773b06ae28ff6ae926f8c105de6c0407828be3",
+      "bytes": 147
+    },
+    {
+      "path": "examples/assets/2d/bitmaps/wink_open.props.yaml",
+      "sha256": "6bba505d954381b4a39a955b473a9ec9bb3bf0858e7ac092d82f2fb3baced74f",
+      "bytes": 772
+    },
+    {
+      "path": "examples/assets/2d/bmps/patric_emotes.bmp",
+      "sha256": "dafdcf94595e3bef541b11e03b061ae83255efe90d8fd75b749349ecb625dab2",
+      "bytes": 1549898
+    },
+    {
+      "path": "examples/assets/2d/bmps/patric_emotes.props.yaml",
+      "sha256": "b678ca30a6bebec54833593a873acc89a6e754313db00df9897c015435be080a",
+      "bytes": 690
+    },
+    {
+      "path": "examples/assets/2d/bmps/random_emotes.bmp",
+      "sha256": "e23b6f134588195b75e1e17b32734f705cc6696b3f53b6f8bef453384ae8a4c5",
+      "bytes": 1751178
+    },
+    {
+      "path": "examples/assets/2d/bmps/random_emotes.props.yaml",
+      "sha256": "7dc84074eec813c4bea00c9612e3f7fd466418e09e7fcd6683a09f391e6de60f",
+      "bytes": 690
+    },
+    {
+      "path": "examples/assets/2d/gifs/0ec670a21628ecaae848577da077c3cec95888f1r1-264-264_00.gif",
+      "sha256": "5c9f43f5cc9b176ec8a63740808124da884786926eace217884c58b81e00e6a5",
+      "bytes": 1871
+    },
+    {
+      "path": "examples/assets/2d/gifs/0ec670a21628ecaae848577da077c3cec95888f1r1-264-264_00.props.yaml",
+      "sha256": "47d6d733e1d71271a3318ac505e60cd4b4494c64e1299661774a0d8109d7938f",
+      "bytes": 949
+    },
+    {
+      "path": "examples/assets/2d/gifs/ChasmDaltynBg.gif",
+      "sha256": "6029bc61079f60cac2e60b563c5e7846f3d5606def2c8e0dd7b122a6943d9a47",
+      "bytes": 13920
+    },
+    {
+      "path": "examples/assets/2d/gifs/ChasmDaltynBg.props.yaml",
+      "sha256": "9004e013f627b2e961400373ac5ccdacbe4856bbebf8f5c4edcd83191e01b759",
+      "bytes": 873
+    },
+    {
+      "path": "examples/assets/2d/gifs/ChasmDaltynChest.gif",
+      "sha256": "89f6aeb915c91d36c1998906a6e3ba2f0c12bf134a0eec0ea3127f2bdbd3e2c9",
+      "bytes": 40786
+    },
+    {
+      "path": "examples/assets/2d/gifs/ChasmDaltynChest.props.yaml",
+      "sha256": "9d8cf91fc04ee9ff45cae3067116e74bbaafeb007bedc5f7cba95927fd89dcc7",
+      "bytes": 875
+    },
+    {
+      "path": "examples/assets/2d/gifs/ChasmDaltynCrouch.gif",
+      "sha256": "ef4033def130158f64f26884dc4984eca518b5b22d323cc926cbcf6441f4e134",
+      "bytes": 23545
+    },
+    {
+      "path": "examples/assets/2d/gifs/ChasmDaltynCrouch.props.yaml",
+      "sha256": "541efc5300567afa4cf727409c194619ecf4934fc9660acf096d871800c0e2a9",
+      "bytes": 891
+    },
+    {
+      "path": "examples/assets/2d/gifs/ChasmDaltynFight.gif",
+      "sha256": "83a597675c75bdfbade3574d38ffd5f91d14e336520a16cc97d97d3ac39d0a79",
+      "bytes": 23167
+    },
+    {
+      "path": "examples/assets/2d/gifs/ChasmDaltynFight.props.yaml",
+      "sha256": "9843a56f3f49ed0fe0ea479d9460c811cf8550ead55a3e66b980d3956f2563af",
+      "bytes": 876
+    },
+    {
+      "path": "examples/assets/2d/gifs/ChasmDaltynKnife.gif",
+      "sha256": "9e24994b2cefdf289d93e3af7d92406cc37d4c9b133851041cc021b7a33b77a9",
+      "bytes": 12091
+    },
+    {
+      "path": "examples/assets/2d/gifs/ChasmDaltynKnife.props.yaml",
+      "sha256": "97da5a92ec1c6005924b45a4818bcaa35158bbec761a57b5bdb1e3764ffd0f93",
+      "bytes": 876
+    },
+    {
+      "path": "examples/assets/2d/gifs/ChasmDaltynPunch.gif",
+      "sha256": "83ac0f49836ae566f471b24a78e5281cb7dd77b5a1a29570b348e3e8c0fce213",
+      "bytes": 13550
+    },
+    {
+      "path": "examples/assets/2d/gifs/ChasmDaltynPunch.props.yaml",
+      "sha256": "1707ab180bd5813702f9be78c431ffeea9b1b170a505207c20c0743d667b1176",
+      "bytes": 876
+    },
+    {
+      "path": "examples/assets/2d/gifs/ChasmDaltynRun.gif",
+      "sha256": "29284f9bda5cedc2823bd52c1152c6133441c495817ef464f3a341f27d4ec357",
+      "bytes": 114519
+    },
+    {
+      "path": "examples/assets/2d/gifs/ChasmDaltynRun.props.yaml",
+      "sha256": "60470d5f4a8f34e44d0d56afaf87b8b25bf4c53055612b046946cdb71b283d8d",
+      "bytes": 882
+    },
+    {
+      "path": "examples/assets/2d/gifs/ChasmDaltynShield.gif",
+      "sha256": "17b8d9308d8dd1534cd6588831db58acbe20474b3e470401f76485aacd80ab14",
+      "bytes": 26480
+    },
+    {
+      "path": "examples/assets/2d/gifs/ChasmDaltynShield.props.yaml",
+      "sha256": "8cf51bf957b3d896adcecbaddba652796d89f0c31875d4de178b2485b90847fe",
+      "bytes": 891
+    },
+    {
+      "path": "examples/assets/2d/gifs/ChasmDaltynSlash.gif",
+      "sha256": "6021c682a09630b69dcc4e0f7f58a083ec9b4493eb24c4a46a85d329eab432a7",
+      "bytes": 15036
+    },
+    {
+      "path": "examples/assets/2d/gifs/ChasmDaltynSlash.props.yaml",
+      "sha256": "907aa6b5169b96c9931ebd613888e8efcd1652cc73969a0797a00a11cf19ad1f",
+      "bytes": 869
+    },
+    {
+      "path": "examples/assets/2d/gifs/ChasmDaltynSword.gif",
+      "sha256": "b84e56eff491fdb299603cb457912a8e0a9e6a05c856be9adf9ca60b66d610f3",
+      "bytes": 13488
+    },
+    {
+      "path": "examples/assets/2d/gifs/ChasmDaltynSword.props.yaml",
+      "sha256": "6b320fc2a623d81688950cf849380f7d26db5f40038ddcd372934d313a5aaa5e",
+      "bytes": 876
+    },
+    {
+      "path": "examples/assets/2d/gifs/ChasmDaltynWhip.gif",
+      "sha256": "8e065da92cbadc0248307cffc5471b2ab89b59420f68907ac43514322f9c7e69",
+      "bytes": 10938
+    },
+    {
+      "path": "examples/assets/2d/gifs/ChasmDaltynWhip.props.yaml",
+      "sha256": "9aa62a2a3962adcf4f143b54deb421fd808ea957ce325aa5f1c4a98d17c293ed",
+      "bytes": 879
+    },
+    {
+      "path": "examples/assets/2d/gifs/ChasmGoblin.gif",
+      "sha256": "e7cf6852a929813d23fa027c9fad7b42f68b1a56067ae6e636d13675eaa28369",
+      "bytes": 20530
+    },
+    {
+      "path": "examples/assets/2d/gifs/ChasmGoblin.props.yaml",
+      "sha256": "b2330a9982785fdb6012dc5f5362b7775710d24cc27c927061de30c83cd509eb",
+      "bytes": 873
+    },
+    {
+      "path": "examples/assets/2d/gifs/ChasmMonster1.gif",
+      "sha256": "4bfd60515aea5668e8e37dc813527d81ece786473620e78d993e8486c99d5f64",
+      "bytes": 6325
+    },
+    {
+      "path": "examples/assets/2d/gifs/ChasmMonster1.props.yaml",
+      "sha256": "09f11a153ca2c60aed398c542012388f2262fbb4a6934f0b59fbe247b02d1aa3",
+      "bytes": 878
+    },
+    {
+      "path": "examples/assets/2d/gifs/ChasmMonster2.gif",
+      "sha256": "a207cd9ed229b767919d818e0cab3d7c205a5d0c6b5c7a620d8e3691f140b2be",
+      "bytes": 7917
+    },
+    {
+      "path": "examples/assets/2d/gifs/ChasmMonster2.props.yaml",
+      "sha256": "ffc7faa2f2f3619235abd203e49e891c5df8260c4ae5da15ec89f78e4b9aefa3",
+      "bytes": 878
+    },
+    {
+      "path": "examples/assets/2d/gifs/ChasmMonster3.gif",
+      "sha256": "d837e9544602c1c076f57810045ac1904b63aa4f5a5adcef7108fdccd21817cf",
+      "bytes": 9606
+    },
+    {
+      "path": "examples/assets/2d/gifs/ChasmMonster3.props.yaml",
+      "sha256": "15f83c7fb88f6af5b58b8a521f5112e2ec67d187460f31eb034138cbbc0f8be3",
+      "bytes": 878
+    },
+    {
+      "path": "examples/assets/2d/gifs/ChasmOldMan.gif",
+      "sha256": "3e47434621ffd7282feca9808655a426c947c13862dab03838b4529966ebcb96",
+      "bytes": 9969
+    },
+    {
+      "path": "examples/assets/2d/gifs/ChasmOldMan.props.yaml",
+      "sha256": "edb76eedbaba32b549335097d92f772f21eabf08c706e1a677bb91dad3f9adfa",
+      "bytes": 865
+    },
+    {
+      "path": "examples/assets/2d/gifs/DinoRun1.gif",
+      "sha256": "a439eb0a1b71d5f8dcc6867b06f6899c22bd27e1e000eb1a9267ab599254379b",
+      "bytes": 1918
+    },
+    {
+      "path": "examples/assets/2d/gifs/DinoRun1.props.yaml",
+      "sha256": "fad33a4f38c7e478cb42f096b8f14b4b75044544b540d9b7ee613b603bdf30b9",
+      "bytes": 876
+    },
+    {
+      "path": "examples/assets/2d/gifs/DinoRun10.gif",
+      "sha256": "091cfa64b9c4def12a598b6f7004bd6d9e9765547d51644bdb7d666b20ba6d1e",
+      "bytes": 2045
+    },
+    {
+      "path": "examples/assets/2d/gifs/DinoRun10.props.yaml",
+      "sha256": "e0d374e8fda49a7384d742b19812b6374c94975b64b11abaaa22cbe8cb79c470",
+      "bytes": 878
+    },
+    {
+      "path": "examples/assets/2d/gifs/DinoRun11.gif",
+      "sha256": "1ed006fe532e6ae37a7166c1a56e53c5b9b0334bc76f2dc4266c830d43d62566",
+      "bytes": 1844
+    },
+    {
+      "path": "examples/assets/2d/gifs/DinoRun11.props.yaml",
+      "sha256": "40ea2d57ccb0a402ac63606a6b623b73e99f0d8220fbb3a62f56051a702ce3c1",
+      "bytes": 878
+    },
+    {
+      "path": "examples/assets/2d/gifs/DinoRun2.gif",
+      "sha256": "041dbf613f6c7deaa0876fa122ed748f3c0ac7e1839eaad53104de9503ae69ae",
+      "bytes": 3232
+    },
+    {
+      "path": "examples/assets/2d/gifs/DinoRun2.props.yaml",
+      "sha256": "d22bb9df4c1f62fbd796aacdf0161a5a79100bc38be78e565c1cf283357bc444",
+      "bytes": 876
+    },
+    {
+      "path": "examples/assets/2d/gifs/DinoRun3.gif",
+      "sha256": "062ebe246f229b686fce572f51fea1de1bf8f93669bc2117cb87b97165076cb2",
+      "bytes": 3119
+    },
+    {
+      "path": "examples/assets/2d/gifs/DinoRun3.props.yaml",
+      "sha256": "3ac4b74921103299a89e594ece7b43d58f60d89d8cfd6ee781823d43c9a8ba89",
+      "bytes": 876
+    },
+    {
+      "path": "examples/assets/2d/gifs/DinoRun6.gif",
+      "sha256": "bb5f0eda7778902d5bfd7f763d7ce492ed0f12fb298e3518c9be300cabf0cca2",
+      "bytes": 2898
+    },
+    {
+      "path": "examples/assets/2d/gifs/DinoRun6.props.yaml",
+      "sha256": "4fbcbbe7fa725b7f3a66d75e52b6881bd6047454b15dff17d5b290e21e6c3486",
+      "bytes": 876
+    },
+    {
+      "path": "examples/assets/2d/gifs/DinoRun7-2.gif",
+      "sha256": "c72ade65d629796f12d390b9aa2bdbc234cae8a4b55cc73cd1a9787122bd41fe",
+      "bytes": 2207
+    },
+    {
+      "path": "examples/assets/2d/gifs/DinoRun7-2.props.yaml",
+      "sha256": "34031101e83b6dd70e3e545be75edeb4410b843f9231ea3ba410a837bff2869f",
+      "bytes": 880
+    },
+    {
+      "path": "examples/assets/2d/gifs/DinoRun7.gif",
+      "sha256": "98d70dbc4be610e77f1145256d8fb2248d0ac1b6b90294842dd3b97e196a223b",
+      "bytes": 1686
+    },
+    {
+      "path": "examples/assets/2d/gifs/DinoRun7.props.yaml",
+      "sha256": "6109a1244c0460df12c0227717ed13661a4abdadbae0e8f5f4259f80795a0854",
+      "bytes": 876
+    },
+    {
+      "path": "examples/assets/2d/gifs/DinoRun9-1.gif",
+      "sha256": "1f6823441208ae052dd8ce5aa83e13aee3bb1a21f5712708f33b452be45fae9b",
+      "bytes": 1991
+    },
+    {
+      "path": "examples/assets/2d/gifs/DinoRun9-1.props.yaml",
+      "sha256": "ae60af37a0ef839f6a88d69b1c35d87c8bdb4cc3cbf9d7203818371acb37e074",
+      "bytes": 880
+    },
+    {
+      "path": "examples/assets/2d/gifs/DinoRun9-2.gif",
+      "sha256": "e17a2986a6c82807fc2cda1196721a93951f4ef9804cafd87e3ea12a6b5ad3ec",
+      "bytes": 2201
+    },
+    {
+      "path": "examples/assets/2d/gifs/DinoRun9-2.props.yaml",
+      "sha256": "f5e1837c36227e598bf965868150357554f5c3388ff750523ffbcdd1bf131da6",
+      "bytes": 880
+    },
+    {
+      "path": "examples/assets/2d/gifs/DinoRun9-3.gif",
+      "sha256": "29c69ea61aca179d1f8bf42ca0b6eb5e18456f0f5e4596f320cab509f63fc50d",
+      "bytes": 1474
+    },
+    {
+      "path": "examples/assets/2d/gifs/DinoRun9-3.props.yaml",
+      "sha256": "0145abc133a09444bdaee193f09440f69e800e330fc429faf03d2b2ebe147d07",
+      "bytes": 880
+    },
+    {
+      "path": "examples/assets/2d/gifs/DinoRun9-4.gif",
+      "sha256": "6577bc2ea5acc70a5fa738d047b31ee967f7be44d3c49f4be4c2beed4f5be899",
+      "bytes": 1681
+    },
+    {
+      "path": "examples/assets/2d/gifs/DinoRun9-4.props.yaml",
+      "sha256": "f3eee1d87cc4ab0d98dc0d63ee317639f2130bede61a0095733dc0e66925dcb3",
+      "bytes": 880
+    },
+    {
+      "path": "examples/assets/2d/gifs/Eyes_Gif.gif",
+      "sha256": "465cd01cbebc566778b81549ed5b763ef419373dec274e09c0efc64e0bcf65d7",
+      "bytes": 52574
+    },
+    {
+      "path": "examples/assets/2d/gifs/Eyes_Gif.props.yaml",
+      "sha256": "2edc779146734abf7e83640c32362d8e40523c316fdeeba6a09d77ec63e8edd6",
+      "bytes": 864
+    },
+    {
+      "path": "examples/assets/2d/gifs/GIF MEGA Arduino Eyes Only (copy).gif",
+      "sha256": "465cd01cbebc566778b81549ed5b763ef419373dec274e09c0efc64e0bcf65d7",
+      "bytes": 52574
+    },
+    {
+      "path": "examples/assets/2d/gifs/GIF MEGA Arduino Eyes Only (copy).props.yaml",
+      "sha256": "71efdb8e8b5c420e6aebfc239a1a94bf9e73692ad89629245f56c835e7689909",
+      "bytes": 914
+    },
+    {
+      "path": "examples/assets/2d/gifs/RIVE_big_smile_animation.gif",
+      "sha256": "86beaa578c1ede673793945151f711dea90bc3ba0659a796300f572fc901322b",
+      "bytes": 17863
+    },
+    {
+      "path": "examples/assets/2d/gifs/RIVE_big_smile_animation.props.yaml",
+      "sha256": "06c9ffd294114e9abba2a85c03699ba24c8107a77340d38b79fbd95c007277cf",
+      "bytes": 892
+    },
+    {
+      "path": "examples/assets/2d/gifs/RIVE_big_smile_animation_4x.gif",
+      "sha256": "998c2587ae6b29dc1f943092201610abe72981e48dbc53c29f2f907f1705a83d",
+      "bytes": 28915
+    },
+    {
+      "path": "examples/assets/2d/gifs/RIVE_big_smile_animation_4x.props.yaml",
+      "sha256": "cb10f77df663b8392ee159378f2b78fd570d984ca37e390c865a3d76a6219183",
+      "bytes": 898
+    },
+    {
+      "path": "examples/assets/2d/gifs/TinyFlex.gif",
+      "sha256": "c982d25f188e7974ad35d8d2ce1f008a21e97be500c871d4784defd6437de43e",
+      "bytes": 2034
+    },
+    {
+      "path": "examples/assets/2d/gifs/TinyFlex.props.yaml",
+      "sha256": "a8ae02d7fd5e375838a4a62ec012870a2c525094c97df987e4cc481885827a5b",
+      "bytes": 859
+    },
+    {
+      "path": "examples/assets/2d/gifs/cloud-network.gif",
+      "sha256": "bcdef734bba906ce6a4eceeb80621b5610c3c0f153e7aa7f8c79137336e55fc5",
+      "bytes": 295866
+    },
+    {
+      "path": "examples/assets/2d/gifs/cloud-network.props.yaml",
+      "sha256": "224bc7996bdc8b825dfa1d25e9c7f9e13e6cce0bbec64fd572a8468288b5aad5",
+      "bytes": 869
+    },
+    {
+      "path": "examples/assets/2d/gifs/ezgif.com-crop.gif",
+      "sha256": "229bce370db847ec132b8d214a2834127430b5b61c739a60c8d4767f1f2b6ce7",
+      "bytes": 254
+    },
+    {
+      "path": "examples/assets/2d/gifs/ezgif.com-crop.props.yaml",
+      "sha256": "128800062e5c16ca9c42da0a7ec97f87f3d53b5e1177307fa5fe20743ded165d",
+      "bytes": 871
+    },
+    {
+      "path": "examples/assets/2d/gifs/ezgif.com-resize-10.gif",
+      "sha256": "675fdb2667194dc7683862fdad122da965a3634805ba39ad9c08024cd7f4e0d6",
+      "bytes": 126512
+    },
+    {
+      "path": "examples/assets/2d/gifs/ezgif.com-resize-10.props.yaml",
+      "sha256": "aee95317b999de7b8281a5b8934e1dde8c24ddbf0f97634a9a6840bb68709afe",
+      "bytes": 881
+    },
+    {
+      "path": "examples/assets/2d/gifs/ezgif.com-resize-2.gif",
+      "sha256": "23798c8562d58b44d16894b3606c2354fcbc2f1ba1d6ae320aa53904602306c8",
+      "bytes": 23793
+    },
+    {
+      "path": "examples/assets/2d/gifs/ezgif.com-resize-2.props.yaml",
+      "sha256": "158181d93540197f993d9e47be9a78e0c59f1b94f1d204193d412f447ad32917",
+      "bytes": 879
+    },
+    {
+      "path": "examples/assets/2d/gifs/ezgif.com-resize-3.gif",
+      "sha256": "1f8b684247b3f30c4cbe5e5f5f9b67cc0af8677a4881e057901633169679075f",
+      "bytes": 4829
+    },
+    {
+      "path": "examples/assets/2d/gifs/ezgif.com-resize-3.props.yaml",
+      "sha256": "7fe0a4003c4882fe6884d0a4cb35c89506fbb2840c8412c30bf09227d5e62a2d",
+      "bytes": 879
+    },
+    {
+      "path": "examples/assets/2d/gifs/ezgif.com-resize-4.gif",
+      "sha256": "57593a311da01fe3ff34ec76bc8aba34e19ccc0d9cea55f0b69cf9b641e3150b",
+      "bytes": 6617
+    },
+    {
+      "path": "examples/assets/2d/gifs/ezgif.com-resize-4.props.yaml",
+      "sha256": "2ac4723db6add28ac50b1224b9bacdb457bf6223e91637d6beb07a72dae17c8f",
+      "bytes": 879
+    },
+    {
+      "path": "examples/assets/2d/gifs/ezgif.com-resize-5.gif",
+      "sha256": "b77d4ca9f55eb3e8350fa8d39d5fd97e31ea970f458e72920c20632faa36f3c9",
+      "bytes": 182903
+    },
+    {
+      "path": "examples/assets/2d/gifs/ezgif.com-resize-5.props.yaml",
+      "sha256": "87eee50173a173e50303d88285b2acd9f5f53d7c30794bfa8313b5a5fbaf7f69",
+      "bytes": 879
+    },
+    {
+      "path": "examples/assets/2d/gifs/ezgif.com-resize-6.gif",
+      "sha256": "82fe4c6f1a5afa887f44c8138bc363b0ad5a38d494adb9ca1042b4510d6fcdab",
+      "bytes": 1899
+    },
+    {
+      "path": "examples/assets/2d/gifs/ezgif.com-resize-6.props.yaml",
+      "sha256": "0495e8fc17ac434ff4c7b09a052303ce1776d6aea45536f3ef4c5a431c17edfe",
+      "bytes": 879
+    },
+    {
+      "path": "examples/assets/2d/gifs/ezgif.com-resize-7.gif",
+      "sha256": "deea1e9a3f0c3bd649fbdbbcf27628e8438c3f44070d7067ab3c71c13551e1e1",
+      "bytes": 211
+    },
+    {
+      "path": "examples/assets/2d/gifs/ezgif.com-resize-7.props.yaml",
+      "sha256": "a640762b64adb0470d180276b3620262f872652909cf85f1320a552d1a928b98",
+      "bytes": 879
+    },
+    {
+      "path": "examples/assets/2d/gifs/ezgif.com-resize-8.gif",
+      "sha256": "8eefa6c0fd256a547af586956ab807764b59158376e9b15df691bf21c61a9047",
+      "bytes": 3966
+    },
+    {
+      "path": "examples/assets/2d/gifs/ezgif.com-resize-8.props.yaml",
+      "sha256": "15926aa38dfb74cab3e0b1fb8f705e19cc5976dfef6261b15e33c57331215447",
+      "bytes": 879
+    },
+    {
+      "path": "examples/assets/2d/gifs/ezgif.com-resize-9.gif",
+      "sha256": "55dc134246574b21ecf7427ade05aa7b881eb6132787d59b4e7e8e0a0adfaddd",
+      "bytes": 113252
+    },
+    {
+      "path": "examples/assets/2d/gifs/ezgif.com-resize-9.props.yaml",
+      "sha256": "7d6329ba02c5c8b7594e3b9c9e9b1eea70293ecbfe7be058daaaa817ebca1ba8",
+      "bytes": 879
+    },
+    {
+      "path": "examples/assets/2d/gifs/ezgif.com-resize.gif",
+      "sha256": "a65144c4d0e5fd8a2a5c777addbf91cf605a6a31cbff7ed433df60ee6c93cab7",
+      "bytes": 87506
+    },
+    {
+      "path": "examples/assets/2d/gifs/ezgif.com-resize.props.yaml",
+      "sha256": "db2b09cab969fbd9d3a3ce775a1c453f9a7087d00a4f0368d34d959c48f28a83",
+      "bytes": 875
+    },
+    {
+      "path": "examples/assets/2d/gifs/gearblue.gif",
+      "sha256": "b4fa555b1ca8ed68fb248e51f73cb76adb578a3c5b67dd77d7d763869f899a00",
+      "bytes": 6955
+    },
+    {
+      "path": "examples/assets/2d/gifs/gearblue.props.yaml",
+      "sha256": "8b3e2cb0228f4d0a87f79bc3e9904d9295b506a7f38623231fbcb86e4fe08b75",
+      "bytes": 859
+    },
+    {
+      "path": "examples/assets/2d/gifs/gearblue.textClipping",
+      "sha256": "1fdb69df0dbe6a3c2e3dc3c08456400ef590a26052c0b9d682fa140ae0fd83ec",
+      "bytes": 195
+    },
+    {
+      "path": "examples/assets/2d/gifs/gears.gif",
+      "sha256": "9006cc3b0278322362077fffe184c6f0478c5220ef07ac785d14c8612d9d4a75",
+      "bytes": 910338
+    },
+    {
+      "path": "examples/assets/2d/gifs/gears.props.yaml",
+      "sha256": "d873edb2d618bb358372dada2a0f6528ecf578477e95bb0dd48544d5000c7f35",
+      "bytes": 853
+    },
+    {
+      "path": "examples/assets/2d/gifs/grimace.gif",
+      "sha256": "e54aa7c921b4a989c5dc80bd3cec73d3efb7f678ce801e22f012c3ae03fbf13e",
+      "bytes": 650405
+    },
+    {
+      "path": "examples/assets/2d/gifs/grimace.props.yaml",
+      "sha256": "3ece29608517d5e529d7cb7deb352f8a7c2536d0d8f9714ae3e3e7a8dd1fb435",
+      "bytes": 857
+    },
+    {
+      "path": "examples/assets/2d/gifs/happy-2.gif",
+      "sha256": "b25588facb983bdb51bc664aca32a81e24b7198c427fd589f4a9f4c82174f564",
+      "bytes": 768325
+    },
+    {
+      "path": "examples/assets/2d/gifs/happy-2.props.yaml",
+      "sha256": "6e474c349e988ddedb05f501af661cc9b2f8c8b61b8665bc458fbe78295de3c7",
+      "bytes": 851
+    },
+    {
+      "path": "examples/assets/2d/gifs/happy-3.gif",
+      "sha256": "7d53d9489053d86e984161ae574e2ac902575cc8e7a65ebefe8198572d03ac68",
+      "bytes": 705864
+    },
+    {
+      "path": "examples/assets/2d/gifs/happy-3.props.yaml",
+      "sha256": "65ea7c071bc32087fee5e02bf778a84e1021a5af66b210a629388836b9461105",
+      "bytes": 851
+    },
+    {
+      "path": "examples/assets/2d/gifs/happy.gif",
+      "sha256": "28ca3f0f882d3654e574f3cfed2486349a7aa0c6a4840e77bb7dfa0ec4e3fff1",
+      "bytes": 585783
+    },
+    {
+      "path": "examples/assets/2d/gifs/happy.props.yaml",
+      "sha256": "f54afc220cf13e13a2b71cc0fd994902787d53a2b601431e5b8621138d7192b5",
+      "bytes": 847
+    },
+    {
+      "path": "examples/assets/2d/gifs/icons8-youtube-2.gif",
+      "sha256": "16be2b6b4f5a5bc57f4975c2de4dd8a0928696307fb94d43fa5b8d5afaca5145",
+      "bytes": 11990
+    },
+    {
+      "path": "examples/assets/2d/gifs/icons8-youtube-2.props.yaml",
+      "sha256": "facb32731c1afe072b2b87a4cd1ba4ecbb134e79c3834ba0b334a6f1e8e63c95",
+      "bytes": 875
+    },
+    {
+      "path": "examples/assets/2d/gifs/icons8-youtube.gif",
+      "sha256": "b2b05542431e0448430d11cdc1e22f7f52f3c9b14f1f4b2b7e9004ac9c5b9f5c",
+      "bytes": 11908
+    },
+    {
+      "path": "examples/assets/2d/gifs/icons8-youtube.props.yaml",
+      "sha256": "6a5b6f7ba6b75c45f7d3912e0a2f75732d5c335b22ef48172786181b1d1d59df",
+      "bytes": 871
+    },
+    {
+      "path": "examples/assets/2d/gifs/in-love.gif",
+      "sha256": "df71d575c14558bf9d6d4d50026b241e924236ea251cb5c5ac6e664450baf74a",
+      "bytes": 876744
+    },
+    {
+      "path": "examples/assets/2d/gifs/in-love.props.yaml",
+      "sha256": "3be665ae3ca5eb3aa15713ab68e04a07d490e050f1a31421a40dce364cac7190",
+      "bytes": 848
+    },
+    {
+      "path": "examples/assets/2d/gifs/licenses.txt",
+      "sha256": "628bf39d6ead0518fa9c93a931d237396173f726108a9cfe6acd262f853d4e9c",
+      "bytes": 387
+    },
+    {
+      "path": "examples/assets/2d/gifs/sr5z2c0e19e9deaws3.gif",
+      "sha256": "c55526fb217d8e1a4d34180fcf95e0de1e5b728f7ff1fa0a8196ccad9f6c1b17",
+      "bytes": 322490
+    },
+    {
+      "path": "examples/assets/2d/gifs/sr5z2c0e19e9deaws3.props.yaml",
+      "sha256": "3b598e4e7fa08258ee79003737c6a79b359148caebad2821f0ea0844d0247fb7",
+      "bytes": 879
+    },
+    {
+      "path": "examples/assets/2d/gifs/tongue-out.gif",
+      "sha256": "d5451f6d6749ac385419472ad97f6bb4af87fbeaea66fabbf27ca8a1798fc3ea",
+      "bytes": 610283
+    },
+    {
+      "path": "examples/assets/2d/gifs/tongue-out.props.yaml",
+      "sha256": "2b5a7cf3d4e2274bfabc43e01e0ab639c0b5bbb3c27b230b9abaf86060183fdc",
+      "bytes": 871
+    },
+    {
+      "path": "examples/assets/2d/gifs/weather/cloudy.gif",
+      "sha256": "2ae3f908d4872db5c36e181dc352276c4ddfda8cb27eb4205f69213b6f6b774f",
+      "bytes": 11256
+    },
+    {
+      "path": "examples/assets/2d/gifs/weather/cloudy.props.yaml",
+      "sha256": "22c0b4f40f4b9d953caecde1e143a564d88ef6df5532a21710547cf73266c57d",
+      "bytes": 855
+    },
+    {
+      "path": "examples/assets/2d/gifs/weather/hail.gif",
+      "sha256": "96c7a1420e73d228a897c9593287b774255328727f0aef10fe3267ecba12edb3",
+      "bytes": 13568
+    },
+    {
+      "path": "examples/assets/2d/gifs/weather/hail.props.yaml",
+      "sha256": "f522a93901b6c7d1e667bea0259fc570cb948dfb566ae5527b7d2e96dfd3f59e",
+      "bytes": 851
+    },
+    {
+      "path": "examples/assets/2d/gifs/weather/license.txt",
+      "sha256": "4a3ec06e99035a7d10ed8bcbf447e8fa90341ec57249d8626394a3a58f8ab5fa",
+      "bytes": 82
+    },
+    {
+      "path": "examples/assets/2d/gifs/weather/lightnin.gif",
+      "sha256": "94ef030bdb6140f327d3726f86e07533405de7ebbd7f80d9976fdc54c1032a39",
+      "bytes": 10936
+    },
+    {
+      "path": "examples/assets/2d/gifs/weather/lightnin.props.yaml",
+      "sha256": "c2669e211ec5fc9812d43c2d1434fc6ca7f6978357f21e90e1391451525fbf8d",
+      "bytes": 859
+    },
+    {
+      "path": "examples/assets/2d/gifs/weather/pcloudrn.gif",
+      "sha256": "3a515403797bfca6120359131207b3c60ef7ef266ccae961f14ac48875c24801",
+      "bytes": 20085
+    },
+    {
+      "path": "examples/assets/2d/gifs/weather/pcloudrn.props.yaml",
+      "sha256": "f1943d33f0b15937c1730b970cf318d17c94ac29eac5b29dcaa3c8a4673736e8",
+      "bytes": 859
+    },
+    {
+      "path": "examples/assets/2d/gifs/weather/pcloudy.gif",
+      "sha256": "5a1a69dc7a005e928cb4e880500012e3d6b97dbc51d27a62f66b23854a63a7fb",
+      "bytes": 17498
+    },
+    {
+      "path": "examples/assets/2d/gifs/weather/pcloudy.props.yaml",
+      "sha256": "e43d6a49e61ff6f16f53d214aa7a4e4759b6d4a97e38f0b2018fc8d2547bcb06",
+      "bytes": 857
+    },
+    {
+      "path": "examples/assets/2d/gifs/weather/raining.gif",
+      "sha256": "10646c5d0171f5a8e39e6d95e0ab042f936359320e0bd7c24c52d1e199bd92af",
+      "bytes": 16487
+    },
+    {
+      "path": "examples/assets/2d/gifs/weather/raining.props.yaml",
+      "sha256": "7bbd61bee56a48911afd5f7b2a1127cc389b00980ec37c081bb6430406fb960a",
+      "bytes": 863
+    },
+    {
+      "path": "examples/assets/2d/gifs/weather/snow.gif",
+      "sha256": "8990df26ae81f3247a8780446bd439c6ba3146e214868874ec55493f15f48034",
+      "bytes": 17601
+    },
+    {
+      "path": "examples/assets/2d/gifs/weather/snow.props.yaml",
+      "sha256": "a4510cfbef5f6ae48382772661b6829df08110c04f618d690d614c5530756bf6",
+      "bytes": 857
+    },
+    {
+      "path": "examples/assets/2d/gifs/weather/snowrain.gif",
+      "sha256": "b95b2b0107f7fede2b06a87bde80d0cf0d1e6b110c2a62616e066514c9051d7a",
+      "bytes": 19321
+    },
+    {
+      "path": "examples/assets/2d/gifs/weather/snowrain.props.yaml",
+      "sha256": "a5437226c3a97d95aea95128564a89cdc4bead4117c7724272fef7324687cbf0",
+      "bytes": 871
+    },
+    {
+      "path": "examples/assets/2d/gifs/weather/storm.gif",
+      "sha256": "a8e80eecc9371b512906512c4ff5ffe39fe4120921458f6e2ee719dfd692fbf0",
+      "bytes": 12547
+    },
+    {
+      "path": "examples/assets/2d/gifs/weather/storm.props.yaml",
+      "sha256": "1a7a90a553780e84b817c9dcdfa85d5df538e32d814aea2ca2b3b2bc6c79a261",
+      "bytes": 853
+    },
+    {
+      "path": "examples/assets/2d/gifs/weather/sunny.gif",
+      "sha256": "3688f76ca63bb1fac526edce7109f681f7a1921ad54ae4e840295d1925bc442e",
+      "bytes": 15649
+    },
+    {
+      "path": "examples/assets/2d/gifs/weather/sunny.props.yaml",
+      "sha256": "2c84d001915ce781cbbc83cc3f90adb76040212d85ffe77f3c722e9db74d3dad",
+      "bytes": 858
+    },
+    {
+      "path": "examples/assets/2d/gifs/work-in-progress.gif",
+      "sha256": "4d38e279a0acefb12de687a94124acf9588b1c4de13e3e8718716411255d06f2",
+      "bytes": 864331
+    },
+    {
+      "path": "examples/assets/2d/gifs/work-in-progress.props.yaml",
+      "sha256": "d1c98826ea9bd14a6586648d64c523072065d5dd790de3a6f8abd94f9897c832",
+      "bytes": 875
+    },
+    {
+      "path": "examples/assets/2d/math/bars.props.yaml",
+      "sha256": "9be5e951d3e22186f55eae28868fcd032568b385610b3d85217071032b8b7a85",
+      "bytes": 987
+    },
+    {
+      "path": "examples/assets/2d/math/bars.py",
+      "sha256": "a90c7428a77c4fe4311aeb13999c15f4c21edc6488ac5c73682e049786dc5228",
+      "bytes": 2830
+    },
+    {
+      "path": "examples/assets/2d/math/daft_punk_inspired.props.yaml",
+      "sha256": "bb3fd8c3c1cfb84b5cb5b8237b148a3f8c0328869258676b3d657290c912ae36",
+      "bytes": 1015
+    },
+    {
+      "path": "examples/assets/2d/math/daft_punk_inspired.py",
+      "sha256": "bf9399c61c55b74c321fa03ae49ea2433fdde898ed1a7688b8648bc88c377d72",
+      "bytes": 3839
+    },
+    {
+      "path": "examples/assets/2d/math/daft_punk_inspired_geometric.props.yaml",
+      "sha256": "5f011e1c9e0a22c3337aa1ae50fc03e329d57b37b52c51ed3650cbbab8467dad",
+      "bytes": 1035
+    },
+    {
+      "path": "examples/assets/2d/math/daft_punk_inspired_geometric.py",
+      "sha256": "7183e04f260f7f2e89753bc97b6acad69fc4c38df5d6693eb37240656a945c53",
+      "bytes": 5920
+    },
+    {
+      "path": "examples/assets/2d/math/daft_punk_inspired_pixel.props.yaml",
+      "sha256": "e3e62701117d6dbf846f0cf1bc93f89932f3d06dfb61a4fb4e132c2aa7caef72",
+      "bytes": 1027
+    },
+    {
+      "path": "examples/assets/2d/math/daft_punk_inspired_pixel.py",
+      "sha256": "1a8bcc9a29f1eaa6f52f63eba6f70ceeb9a7d56c310d2a3edac58dba48fed863",
+      "bytes": 3955
+    },
+    {
+      "path": "examples/assets/2d/math/eyes.props.yaml",
+      "sha256": "78c646eb2e77d0b099c2c6cc98ff4c924433529791921328df0a2a66b0b172c7",
+      "bytes": 992
+    },
+    {
+      "path": "examples/assets/2d/math/eyes.py",
+      "sha256": "7573d4bde8c84aba8c57b634ac5f880d7c6c08461392c2d27a10428a5e3ac7ca",
+      "bytes": 4115
+    },
+    {
+      "path": "examples/assets/2d/math/face.props.yaml",
+      "sha256": "8a7503d421ecf809cff5025fd5a7d5dfc60e298c9ca9f5be51b90f1b36736eb4",
+      "bytes": 993
+    },
+    {
+      "path": "examples/assets/2d/math/face.py",
+      "sha256": "80e75d999092d04d8a97ac18e144d4a13db615fa435aca8854f6c5c59c3944c3",
+      "bytes": 4158
+    },
+    {
+      "path": "examples/assets/2d/math/face_2.props.yaml",
+      "sha256": "50ef4131026616c690ac695952bf7d090459c018f751ce8123a0d58d96f3e5ff",
+      "bytes": 997
+    },
+    {
+      "path": "examples/assets/2d/math/face_2.py",
+      "sha256": "a287f611b885e8ebc535d809ac9899977b45b85cfd0b1602707d63d6f19a995d",
+      "bytes": 3827
+    },
+    {
+      "path": "examples/assets/2d/math/game_of_life.props.yaml",
+      "sha256": "ea3c93ca67a060f4913e25a5f86a0cce5892aead3376446269a2b3f307af1a34",
+      "bytes": 1003
+    },
+    {
+      "path": "examples/assets/2d/math/game_of_life.py",
+      "sha256": "9a2822fb12be90f57e742b16c9227cc612c0b383c9692b37c02e70f699030aae",
+      "bytes": 3106
+    },
+    {
+      "path": "examples/assets/2d/math/game_of_life_2.props.yaml",
+      "sha256": "ba3909088d45d8c3b1a2bd8199b555dbe2cccb85f991fd7fed94d6cce5de45e4",
+      "bytes": 1007
+    },
+    {
+      "path": "examples/assets/2d/math/game_of_life_2.py",
+      "sha256": "70db09129cdb9f02f34ea2f262fa4c01eb4eaf6518f6b7281ecae696fd91133a",
+      "bytes": 2522
+    },
+    {
+      "path": "examples/assets/2d/math/idle.props.yaml",
+      "sha256": "d641d7188bd81ef126ed9816a0ae69bf4d613f354cc6038f7911fefc21993fee",
+      "bytes": 993
+    },
+    {
+      "path": "examples/assets/2d/math/idle.py",
+      "sha256": "ad6eec89eac435fb5081cfc3b8d7aa25f12f6f96b44395ebb9564dbcbf4ec54e",
+      "bytes": 835
+    },
+    {
+      "path": "examples/assets/2d/math/logo_spotify.props.yaml",
+      "sha256": "5e31d8506ad2952c99f79507fea8a3ff234c258b86e91f4ce7ecf2c515c3cbc9",
+      "bytes": 1018
+    },
+    {
+      "path": "examples/assets/2d/math/logo_spotify.py",
+      "sha256": "27a4b8c50ce32d64ee8483f4556751ceaee89d914bbb144f92c0f0ff6487a94a",
+      "bytes": 8893
+    },
+    {
+      "path": "examples/assets/2d/math/rainbow.props.yaml",
+      "sha256": "924ab40c37a6fe1cf3ea8db9222637be17f0ac135c39e7b3942b47f7d5bade8a",
+      "bytes": 1008
+    },
+    {
+      "path": "examples/assets/2d/math/rainbow.py",
+      "sha256": "85c682b2436a02232fd81c0707ef1fd364cc56390918ac0650ae01f8aff5fc1b",
+      "bytes": 1868
+    },
+    {
+      "path": "examples/assets/2d/math/test_circles.props.yaml",
+      "sha256": "f2702df6bc6e38ade35846ba4e24c37562e20afc5b17230572e4e99ecbce6a9e",
+      "bytes": 1009
+    },
+    {
+      "path": "examples/assets/2d/math/test_circles.py",
+      "sha256": "f2bf49f983ad6105edafb5074aee96161190256fc94db37216c594b74d402727",
+      "bytes": 1882
+    },
+    {
+      "path": "examples/assets/2d/math/test_fast_lines.props.yaml",
+      "sha256": "bf55596df3b3e1e8fcfbf26e5a963b18e59c5ca8f1dc2543cc0bb776365260bc",
+      "bytes": 1015
+    },
+    {
+      "path": "examples/assets/2d/math/test_fast_lines.py",
+      "sha256": "4c98a61c0eb369fe5407fd41f600a14b8d3110b6fc1420dc4127623d6a90494e",
+      "bytes": 1253
+    },
+    {
+      "path": "examples/assets/2d/math/test_fill_screen.props.yaml",
+      "sha256": "08c89ec9a1eb471c2dee5967ff7a94bb0fb5bf3b3caf5051d918f2e412deb834",
+      "bytes": 1017
+    },
+    {
+      "path": "examples/assets/2d/math/test_fill_screen.py",
+      "sha256": "e1cb5267b4a4ff9fe02ea7cf049a5f0582b0fd527d098f1ccc9997d7526df10d",
+      "bytes": 1887
+    },
+    {
+      "path": "examples/assets/2d/math/test_filled_circles.props.yaml",
+      "sha256": "38f71f00598a1be1d75eb205a249281357a61ba7014907bc2c8e2b4af656e9ba",
+      "bytes": 1023
+    },
+    {
+      "path": "examples/assets/2d/math/test_filled_circles.py",
+      "sha256": "703cf660c4f1646f92312d40f7881d23593198af097d9b6fc85d2b6b7436bed9",
+      "bytes": 1921
+    },
+    {
+      "path": "examples/assets/2d/math/test_filled_rects.props.yaml",
+      "sha256": "65a0fe31da9f65cceb2480bb12952fd8bdc257f655f27b9b57da35668751a426",
+      "bytes": 1019
+    },
+    {
+      "path": "examples/assets/2d/math/test_filled_rects.py",
+      "sha256": "4dc9059dfb43df01ca2ef57287787ddc77b48ac3745ce1e9d415ac3fe0752cb7",
+      "bytes": 2234
+    },
+    {
+      "path": "examples/assets/2d/math/test_filled_round_rects.props.yaml",
+      "sha256": "5d3f01e253411e09a7252c1e1cbd1132140f6c0d49c872289d7517637e1211e7",
+      "bytes": 1031
+    },
+    {
+      "path": "examples/assets/2d/math/test_filled_round_rects.py",
+      "sha256": "bdc22c4559b36c46dda6cfbe2a6184474b5d649ca002c75e668473d8e347954b",
+      "bytes": 1943
+    },
+    {
+      "path": "examples/assets/2d/math/test_filled_triangles.props.yaml",
+      "sha256": "7904b409acf78a032d44559a3e10e66a9651337ffafe2d90ad2ff63a782225a9",
+      "bytes": 1027
+    },
+    {
+      "path": "examples/assets/2d/math/test_filled_triangles.py",
+      "sha256": "3da4fe582cc623bb172268d9de343a149e00b77afdeec4bbc9b2923f4169e80d",
+      "bytes": 1909
+    },
+    {
+      "path": "examples/assets/2d/math/test_lines.props.yaml",
+      "sha256": "9af639fc09c6f1024426edac685b7a8cc3a7e96687a47ee11be4eba3608fc6c9",
+      "bytes": 1005
+    },
+    {
+      "path": "examples/assets/2d/math/test_lines.py",
+      "sha256": "37cb21100830193760dc76d525177877129499d07a4d42892743c5933cf463cb",
+      "bytes": 2521
+    },
+    {
+      "path": "examples/assets/2d/math/test_rects.props.yaml",
+      "sha256": "40dff041661c4f565b13d2d475a59ce9781d68658009d699657f1dc56cb2ba70",
+      "bytes": 1005
+    },
+    {
+      "path": "examples/assets/2d/math/test_rects.py",
+      "sha256": "26a69b5939c6db1fe6f62a73e09f49a5fa6b3439f0c0c05b6d88f8628b672a8e",
+      "bytes": 1605
+    },
+    {
+      "path": "examples/assets/2d/math/test_round_rects.props.yaml",
+      "sha256": "7f1f1fc55edbb87b74f88e63e18e79798c96f511826911bac8715e6cccb1c45c",
+      "bytes": 1017
+    },
+    {
+      "path": "examples/assets/2d/math/test_round_rects.py",
+      "sha256": "e237f177f0164ee3c31541774847bf8f78636d3bc98737284a339877cd3f704f",
+      "bytes": 1882
+    },
+    {
+      "path": "examples/assets/2d/math/test_text.props.yaml",
+      "sha256": "6e6980bde6d40d7f408cea36ecf37a774c94ed1406ad2031c025104aab803ca2",
+      "bytes": 1003
+    },
+    {
+      "path": "examples/assets/2d/math/test_text.py",
+      "sha256": "a6bb3dc1b6cb21dd8854c657c514d12eba8329338c4d47de1eec3d78597c194e",
+      "bytes": 1392
+    },
+    {
+      "path": "examples/assets/2d/math/test_triangles.props.yaml",
+      "sha256": "01fe8b44039453dea7060cccc2037b7e5043652b2fa05b24624e66d4d21fe67b",
+      "bytes": 1013
+    },
+    {
+      "path": "examples/assets/2d/math/test_triangles.py",
+      "sha256": "f49539a82710a0972ec384a11aadb467f02ecba19336a4ddbb8d0808e6c82472",
+      "bytes": 1559
+    },
+    {
+      "path": "examples/assets/2d/math/timer.props.yaml",
+      "sha256": "ee48cdbdb4d358c9f39fb9d395c0b30c5eb12516f623c1869931f5215d950655",
+      "bytes": 989
+    },
+    {
+      "path": "examples/assets/2d/math/timer.py",
+      "sha256": "ad9af77d511c06129a6f187a9dd325ae4c6bf76ba827fe448168b51cb33b9adc",
+      "bytes": 3689
+    },
+    {
+      "path": "examples/assets/2d/math/wave_scene.props.yaml",
+      "sha256": "2209cc1904800c6d3313207e283b7ce0a44c1f649f89ea204c0b8b06b7c6b052",
+      "bytes": 999
+    },
+    {
+      "path": "examples/assets/2d/math/wave_scene.py",
+      "sha256": "b28bc1046f5c7dc7ef617d541eeaf8f7c242187874e34aca0930d36137aa6372",
+      "bytes": 3599
+    },
+    {
+      "path": "examples/assets/2d/mscripts/demo_bitmap.mscript",
+      "sha256": "89656670021b16611f7052f93ce8a2a6a20c381210374e72c404fd0ee7a80922",
+      "bytes": 211
+    },
+    {
+      "path": "examples/assets/2d/mscripts/demo_bitmap.props.yaml",
+      "sha256": "f70eeff228be42fec7eb29a8198f7aa3ba852b13c5fe32cadd6b7b1394dcc50f",
+      "bytes": 792
+    },
+    {
+      "path": "examples/assets/2d/mscripts/demo_gif.mscript",
+      "sha256": "e3173990d935bf6d7c48cefba320f7f094e27ecea4b585d736e448ce873c034b",
+      "bytes": 167
+    },
+    {
+      "path": "examples/assets/2d/mscripts/demo_gif.props.yaml",
+      "sha256": "08af101b2fde4f77f4067db0624db18f0add0d2eb033b902bbb5349d69b4ed59",
+      "bytes": 786
+    },
+    {
+      "path": "examples/assets/2d/mscripts/demo_math_eyes_sequence.mscript",
+      "sha256": "97ac3827c69849c4a9b04d47c5c6b4d88be917e81318346199052b15f9479325",
+      "bytes": 488
+    },
+    {
+      "path": "examples/assets/2d/mscripts/demo_math_eyes_sequence.props.yaml",
+      "sha256": "81e56958a19863ab6532ef70ce712086570bc488fd28fccbb0334f151ff06416",
+      "bytes": 821
+    },
+    {
+      "path": "examples/assets/2d/mscripts/demo_math_game_of_life.mscript",
+      "sha256": "0fd4b08ded9e2603367d66f7b385c36694e4f85a5de9574a207775a71803b03b",
+      "bytes": 182
+    },
+    {
+      "path": "examples/assets/2d/mscripts/demo_math_game_of_life.props.yaml",
+      "sha256": "87125b795f00702ca77722942cd2427aa96bf2bb8bb2eb1de706f3f455246841",
+      "bytes": 814
+    },
+    {
+      "path": "examples/assets/2d/mscripts/demo_math_gfx.mscript",
+      "sha256": "eeb1105652f7e3c71e67a77708448f122838d9fb2f5692f536255f256bc9ff20",
+      "bytes": 1168
+    },
+    {
+      "path": "examples/assets/2d/mscripts/demo_math_gfx.props.yaml",
+      "sha256": "e0bfc1a18725ec9aaea33014e01b4586121ba2ebb4a2202ca45c6d8d1eb6311a",
+      "bytes": 796
+    },
+    {
+      "path": "examples/assets/2d/mscripts/demo_math_rainbow.mscript",
+      "sha256": "cff797b1441798c2ace4e3df620e6929133af52277251b19ca84be7de0ce7383",
+      "bytes": 176
+    },
+    {
+      "path": "examples/assets/2d/mscripts/demo_math_rainbow.props.yaml",
+      "sha256": "1ccc5a632d19b529b88e0181278beb3ee47b93ff905753d431c35466385eb2db",
+      "bytes": 819
+    },
+    {
+      "path": "examples/assets/2d/mscripts/demo_math_timer.mscript",
+      "sha256": "f7cd5f1640d1bad99fe3ef091cc507d689ffac510eec04ce37d5bea0f9ffb187",
+      "bytes": 230
+    },
+    {
+      "path": "examples/assets/2d/mscripts/demo_math_timer.props.yaml",
+      "sha256": "3f0350518dac6923e71ba4d2df7b8f8294bad8671b741343f82bdf5eea58b3cc",
+      "bytes": 800
+    },
+    {
+      "path": "examples/assets/2d/mscripts/demo_math_wave_scene.mscript",
+      "sha256": "6409ca7e1082bc9c1c98930ce9a7a5b26c869543e2b0dbc41630e2bb193200de",
+      "bytes": 180
+    },
+    {
+      "path": "examples/assets/2d/mscripts/demo_math_wave_scene.props.yaml",
+      "sha256": "41f108c0e9a94cb14817d3ce1a60a1efbc6bbec6634dc1738276aaded7166421",
+      "bytes": 810
+    },
+    {
+      "path": "examples/assets/2d/mscripts/demo_mochi_video.mscript",
+      "sha256": "02f0ddd73e7d6b5312bab9ebe26e826f183b813c106eb280b1114108f22ded0a",
+      "bytes": 812
+    },
+    {
+      "path": "examples/assets/2d/mscripts/demo_mochi_video.props.yaml",
+      "sha256": "fb8ccc5aad4a1bc39e9720f7bd62fb1f5928c6b6d508196e4e8fbe35ddb4c9b6",
+      "bytes": 802
+    },
+    {
+      "path": "examples/assets/2d/mscripts/demo_sequence.mscript",
+      "sha256": "893e2160b3a01ce0afa987a0b35ce125e001a7d5804bc0d724ad0cbb7048002a",
+      "bytes": 446
+    },
+    {
+      "path": "examples/assets/2d/mscripts/demo_sequence.props.yaml",
+      "sha256": "cc4fc76dc7e82292de257dc7f89d0f5f6d0e4c5c519b2f4472dc95dad15565d8",
+      "bytes": 796
+    },
+    {
+      "path": "examples/assets/2d/mscripts/demo_sprite.mscript",
+      "sha256": "1c3c94304406380190a24f345bdd805c488f804b3c2df2d4ce8c1f6832af960a",
+      "bytes": 276
+    },
+    {
+      "path": "examples/assets/2d/mscripts/demo_sprite.props.yaml",
+      "sha256": "6cc06313b0fed09b398af1c06a1edfe2f0961895a209ad5223c74fe2b609975b",
+      "bytes": 792
+    },
+    {
+      "path": "examples/assets/2d/mscripts/demo_sprite_ Patric Sprite.mscript",
+      "sha256": "511c769cfb6fa607149dadce6dae54c3ef01aa3f7ca69ae0ac222270bb7f437e",
+      "bytes": 313
+    },
+    {
+      "path": "examples/assets/2d/mscripts/demo_sprite_ Patric Sprite.props.yaml",
+      "sha256": "7004f3c8ea8f8524dd01ddb3234957d70ace456b6dea50f2bca3b549f99edcb8",
+      "bytes": 822
+    },
+    {
+      "path": "examples/assets/2d/mscripts/demo_timer.mscript",
+      "sha256": "0921675cf22e9fe40af6a65d4a534bb704b373439614d7c3111159b5a520b93e",
+      "bytes": 224
+    },
+    {
+      "path": "examples/assets/2d/mscripts/demo_timer.props.yaml",
+      "sha256": "f246013015a4c8be0a29d82b8b88fc4798e29cf9eaf9e75a5652e74648b585ee",
+      "bytes": 790
+    },
+    {
+      "path": "examples/assets/2d/mscripts/demo_timer_1_min_red.mscript",
+      "sha256": "db0d4b49c53e895f2b0a323e46d127180a4b06b93327f078979b352e73c8af4c",
+      "bytes": 233
+    },
+    {
+      "path": "examples/assets/2d/mscripts/demo_timer_1_min_red.props.yaml",
+      "sha256": "497dcea2c037923c89b68f8bf84e96d853aaf9299b161889dddb698a01e6bfa1",
+      "bytes": 810
+    },
+    {
+      "path": "examples/assets/2d/mscripts/demo_timer_5_min_white.mscript",
+      "sha256": "23747a2c3f65a09e616a478f14795bfd963c51c8a1274d1eafef462e9107557e",
+      "bytes": 239
+    },
+    {
+      "path": "examples/assets/2d/mscripts/demo_timer_5_min_white.props.yaml",
+      "sha256": "41fcfedcd587b393d82d3f77e4750d097417786fc369af14062481c115bdb99b",
+      "bytes": 814
+    },
+    {
+      "path": "examples/assets/2d/mscripts/demo_timer_sequential.mscript",
+      "sha256": "4db01690e99449a59011c745fa1f35309dc97e10ae04192fc050f6000a377911",
+      "bytes": 327
+    },
+    {
+      "path": "examples/assets/2d/mscripts/demo_timer_sequential.props.yaml",
+      "sha256": "ec79ca1fc1bfc94af44cbce6b25990b3b50cbce9cbb2d5678b1b27d5e0165e25",
+      "bytes": 812
+    },
+    {
+      "path": "examples/assets/2d/mscripts/demo_wink.mscript",
+      "sha256": "2d08e0e6e44fe8649b28ca763a71825ba93994d696c4f40f8bf0199719bf7284",
+      "bytes": 341
+    },
+    {
+      "path": "examples/assets/2d/mscripts/demo_wink.props.yaml",
+      "sha256": "83c427f5c8c456fda1ff06a4554dadec3082936b3fd7e0c1b4d6dd3ea871ba98",
+      "bytes": 794
+    },
+    {
+      "path": "examples/assets/2d/mscripts/mscript_rules.props.yaml",
+      "sha256": "d17129dd3db2e9518d2b1d4ff8b7e614ba7e4849ea28513fce3f8cead2fce16c",
+      "bytes": 790
+    },
+    {
+      "path": "examples/assets/2d/mscripts/mscript_rules.txt",
+      "sha256": "8b3ed44a18691a584c79ed1ee8cdb3c1069ffb751e0753263bde89ed28927a0f",
+      "bytes": 4823
+    },
+    {
+      "path": "examples/assets/2d/packs/README.md",
+      "sha256": "97e85a2e692ac4603867fec1a5640347edb052e288b588a7545222fe70cc97d6",
+      "bytes": 518
+    },
+    {
+      "path": "examples/assets/2d/packs/emotes/README.md",
+      "sha256": "45c1efea95c5bff2f08bd9b509fc94597e600887ad747009d50f7666664fb479",
+      "bytes": 1588
+    },
+    {
+      "path": "examples/assets/2d/packs/emotes/character.yaml",
+      "sha256": "c9d47755b9b1a91e790e6d23cb8077ade3143c2e8b71cec673230653c775f6b9",
+      "bytes": 3524
+    },
+    {
+      "path": "examples/assets/2d/packs/emotes/emotes.png",
+      "sha256": "6fb534d855b6099a963c109b5c150b12553cae1d0fb30307a4c0bc24209d795d",
+      "bytes": 361021
+    },
+    {
+      "path": "examples/assets/2d/packs/emotes/emotes.props.yaml",
+      "sha256": "671fbd52d35529a0e296fe9af195fbc44351c590dd78d9f681c8c12de372638c",
+      "bytes": 3331
+    },
+    {
+      "path": "examples/assets/2d/png/README.txt",
+      "sha256": "77077e5bf83ffd9acdd5fce558d01f78bec3e6c60dfcf625025c5a2f79c4d1e0",
+      "bytes": 223
+    },
+    {
+      "path": "examples/assets/2d/png/chrome16.png",
+      "sha256": "74bc013d6f6b070cf6c22044f1c690272e29f1f2c48a1a93270f7fe30f0f25ab",
+      "bytes": 762
+    },
+    {
+      "path": "examples/assets/2d/png/chrome16.props.yaml",
+      "sha256": "16ce16a0930c345c8c5fd743f0bdbad879ede24cba5514d07a75d78664e9ba88",
+      "bytes": 962
+    },
+    {
+      "path": "examples/assets/2d/png/cloud-network.png",
+      "sha256": "cc7f74ed0c15cc5be038217a523c922b8486068ae8e4c9b4f427eeabb8bfc1fd",
+      "bytes": 14463
+    },
+    {
+      "path": "examples/assets/2d/png/cloud-network.props.yaml",
+      "sha256": "f5f9f7bc94ba76dd3aa5b942197e8f81560175e0bccf1cdcd465e725b007007b",
+      "bytes": 972
+    },
+    {
+      "path": "examples/assets/2d/png/colorwheel.png",
+      "sha256": "daf20299283e50963184dc98b79a891ed357f7f7ba4b38e655d737d8b2b687a4",
+      "bytes": 2353
+    },
+    {
+      "path": "examples/assets/2d/png/colorwheel.props.yaml",
+      "sha256": "ac6a490d08c423d3bebcb40c109f3d3bf0e7757fb71ab72a2172b22f142c21af",
+      "bytes": 966
+    },
+    {
+      "path": "examples/assets/2d/png/da0f0e6cb1d7f5f7d611600f3c141bc36f4cf95c.png",
+      "sha256": "12d4cda4b8bb18f0c92a07eeb61de98750fefb639bcd650ed743f27ba791bd88",
+      "bytes": 165720
+    },
+    {
+      "path": "examples/assets/2d/png/da0f0e6cb1d7f5f7d611600f3c141bc36f4cf95c.props.yaml",
+      "sha256": "c1c8c2ac5690f044ddb7489dfa6cad94482bcc148e0015025558e9b08fe34d69",
+      "bytes": 1026
+    },
+    {
+      "path": "examples/assets/2d/png/digital-robotic-eyes-flashing-lights-footage-058482807_iconl.webp",
+      "sha256": "747d7a8e305e4f29be36e3747d96ac7427f57a343e172228c2c1a4daa00c94c8",
+      "bytes": 4208
+    },
+    {
+      "path": "examples/assets/2d/png/pixelmatix.png",
+      "sha256": "35c41041943a76f67b5d71e200ca2251c7442530eb93851f2a2408bde99aed53",
+      "bytes": 1323
+    },
+    {
+      "path": "examples/assets/2d/png/pixelmatix.props.yaml",
+      "sha256": "c5fa2926f4d429e2470f199cfa3ab8bd1b4cae2ce4c8962ab6e65109c4b25ad8",
+      "bytes": 966
+    },
+    {
+      "path": "examples/assets/2d/png/youtube.png",
+      "sha256": "38f3003ce12a8e7a1933104c908f17dd6b3af20af2f44657c976290cdc9b92f7",
+      "bytes": 4440
+    },
+    {
+      "path": "examples/assets/2d/png/youtube.props.yaml",
+      "sha256": "b5867db82431ce656c07165a1c1722ddc4870d13802d7e0964448286d9371839",
+      "bytes": 960
+    },
+    {
+      "path": "examples/assets/2d/procedural/color_wheel.json",
+      "sha256": "f4ee1d31fe9b844f264b5dc9066d73c901797a3b795f59b7a05aebbf1f85f31a",
+      "bytes": 320
+    },
+    {
+      "path": "examples/assets/2d/procedural/color_wheel.props.yaml",
+      "sha256": "5fab5d6eb48455d6b7e7642090f1b9bde6b8c356ec275d0c5706a69647ba14ef",
+      "bytes": 698
+    },
+    {
+      "path": "examples/assets/2d/skins/tv1/meta.yaml",
+      "sha256": "b69ae1ad545cc0320b759874967caee0894213b19e47aa0f0711ce4ce1e14284",
+      "bytes": 603
+    },
+    {
+      "path": "examples/assets/2d/video/Mochi Gifs/mochi.mp4",
+      "sha256": "9939add66833974a01c7c969c3ca754e07a71103185bd034677ff4732bf4cd0b",
+      "bytes": 704570
+    },
+    {
+      "path": "examples/assets/2d/video/Mochi Gifs/mochi.props.yaml",
+      "sha256": "b6f58588178179ed148449474449392494f5ea75126996be368e6caf9a01be36",
+      "bytes": 817
+    },
+    {
+      "path": "examples/assets/2d/video/Mochi Gifs/mochi_2025-10-01_23-06-48-967.afdesign",
+      "sha256": "3f5fa6f37605796999d8f6722de01e3fa45b5b1863abcab678e011dee6e1af1e",
+      "bytes": 745603
+    },
+    {
+      "path": "examples/assets/2d/video/Mochi Gifs/random_emotes.afdesign",
+      "sha256": "fdc0817c98205f6d252901dd01fa15debbc5892c4111b43c67058d7adf6fc102",
+      "bytes": 2459504
+    },
+    {
+      "path": "examples/assets/2d/video/Mochi Gifs/split_video.sh",
+      "sha256": "af8c133d30c7662dbd5f61ac7c75512aaba531116bcbe330449482815f019aec",
+      "bytes": 2373
+    },
+    {
+      "path": "examples/assets/2d/video/Mochi Gifs/video_splits_ffmpeg/split_0_0.mp4",
+      "sha256": "c9eacd64394c2b304e00b03e2ddc0d888b384cf788f3657176c89f2eaba90c15",
+      "bytes": 59036
+    },
+    {
+      "path": "examples/assets/2d/video/Mochi Gifs/video_splits_ffmpeg/split_0_0.props.yaml",
+      "sha256": "516b65214e781b3bc1f2e2f87eddfc925bcfb86034705496928fb7579ec3116a",
+      "bytes": 825
+    },
+    {
+      "path": "examples/assets/2d/video/Mochi Gifs/video_splits_ffmpeg/split_0_1.mp4",
+      "sha256": "355d1bddd5d780c2b4837eddc9bc221a491e45e662ee3f1413151781da49a442",
+      "bytes": 36194
+    },
+    {
+      "path": "examples/assets/2d/video/Mochi Gifs/video_splits_ffmpeg/split_0_1.props.yaml",
+      "sha256": "759031775a28109b03df0ccfda052c870752487bd389506f8251d1346d3b1910",
+      "bytes": 825
+    },
+    {
+      "path": "examples/assets/2d/video/Mochi Gifs/video_splits_ffmpeg/split_1_0.mp4",
+      "sha256": "208bb16efa70db234a81c4f12b6116b67224ef91228f1d195c7564f911a94481",
+      "bytes": 64468
+    },
+    {
+      "path": "examples/assets/2d/video/Mochi Gifs/video_splits_ffmpeg/split_1_0.props.yaml",
+      "sha256": "15f34cec4c3adb08c88fda723981f1e90da2b8cf5ee3393a05a0180e6e1fbc9b",
+      "bytes": 825
+    },
+    {
+      "path": "examples/assets/2d/video/Mochi Gifs/video_splits_ffmpeg/split_1_1.mp4",
+      "sha256": "e1689f3d71fd8dea3bec8875d4fa2fb23489d65f4445324f6299524746c5ad55",
+      "bytes": 124437
+    },
+    {
+      "path": "examples/assets/2d/video/Mochi Gifs/video_splits_ffmpeg/split_1_1.props.yaml",
+      "sha256": "4a5c7ab04c8f6dca0e25ddef69674a008702e112eb3629a634d67634eef3eee3",
+      "bytes": 825
+    },
+    {
+      "path": "examples/assets/2d/video/Mochi Gifs/video_splits_ffmpeg/split_2_0.mp4",
+      "sha256": "df96682175247c16d63a3eb40f7f4c2871c9e520bc4e340705ef9ef6436fab59",
+      "bytes": 177125
+    },
+    {
+      "path": "examples/assets/2d/video/Mochi Gifs/video_splits_ffmpeg/split_2_0.props.yaml",
+      "sha256": "d0d1687f1923c5da082e8fba72afffa898d0b7412b16f651ee9367568f4eb93d",
+      "bytes": 825
+    },
+    {
+      "path": "examples/assets/2d/video/Mochi Gifs/video_splits_ffmpeg/split_2_1.mp4",
+      "sha256": "1d8cd891749aaca2f7cef3adf7436ecbb2a96aceab9466003dda7d773c57d905",
+      "bytes": 72741
+    },
+    {
+      "path": "examples/assets/2d/video/Mochi Gifs/video_splits_ffmpeg/split_2_1.props.yaml",
+      "sha256": "3989091df234eed740af22ad4a0b0a70fb12dc511e9ae0b5a951bebcf3c26bbe",
+      "bytes": 825
+    },
+    {
+      "path": "examples/assets/2d/video/Mochi Gifs/video_splits_ffmpeg/split_3_0.mp4",
+      "sha256": "f696c9de1f936e3f285eafd16c8bfa7729b9ebb4d3cc29d714865984e72640c0",
+      "bytes": 71424
+    },
+    {
+      "path": "examples/assets/2d/video/Mochi Gifs/video_splits_ffmpeg/split_3_0.props.yaml",
+      "sha256": "81f91fde703a868b55d6da2021e28dd5e4b6155e6ef572b97ddba9381b84d814",
+      "bytes": 825
+    },
+    {
+      "path": "examples/assets/2d/video/Mochi Gifs/video_splits_ffmpeg/split_3_1.mp4",
+      "sha256": "9e8a0a2957a5a14915055a0884b767f701d157f131c70ad5d197128243e928bd",
+      "bytes": 54835
+    },
+    {
+      "path": "examples/assets/2d/video/Mochi Gifs/video_splits_ffmpeg/split_3_1.props.yaml",
+      "sha256": "18135d0a36bedcdfb803281bc33f1655c1982a925899c2811f557da666088369",
+      "bytes": 825
+    },
+    {
+      "path": "examples/assets/2d/video/Mochi Gifs/video_splits_ffmpeg/split_4_0.mp4",
+      "sha256": "7c217b00ee1d735b482ab22e7e94cb98abc669f27d90d508c9e0c38280dd5652",
+      "bytes": 93642
+    },
+    {
+      "path": "examples/assets/2d/video/Mochi Gifs/video_splits_ffmpeg/split_4_0.props.yaml",
+      "sha256": "d5ffd68820b2408f6fba8b3cc896805b506086f8bc5a804bf401b77058713ed9",
+      "bytes": 825
+    },
+    {
+      "path": "examples/assets/2d/video/Mochi Gifs/video_splits_ffmpeg/split_4_1.mp4",
+      "sha256": "0ab558bb18391ca0d6025784cfb0f2d4563092d5e7bfd02b063389661857f6ae",
+      "bytes": 64502
+    },
+    {
+      "path": "examples/assets/2d/video/Mochi Gifs/video_splits_ffmpeg/split_4_1.props.yaml",
+      "sha256": "513c25c68a4bcfa288e7826e07b0f135d1cef98e38d96ba663f29ac9e181707b",
+      "bytes": 825
+    },
+    {
+      "path": "examples/assets/2d/video/mochi enhance/mochi_2025-10-01_23-06-48-967.jpeg",
+      "sha256": "e8484f017bf00a8f489710f72244351c2a99b0f0a6a11131aa82e57a73d12bc2",
+      "bytes": 51485
+    },
+    {
+      "path": "examples/assets/2d/video/mochi enhance/split_0_0_restored.mp4",
+      "sha256": "da58fc1894d9673683e8c89d4f8eed482013ac6558dafaf4609891641cbddb1f",
+      "bytes": 193467
+    },
+    {
+      "path": "examples/assets/2d/video/mochi enhance/split_0_0_restored.props.yaml",
+      "sha256": "8014bff901f335420b77cec968264f6cd38b1e5b715b58abf22bc8c61afd5aaa",
+      "bytes": 843
+    },
+    {
+      "path": "examples/assets/2d/video/mochi enhance/split_0_1_restored.mp4",
+      "sha256": "05cd86a5b8a306f77d060bfc03626ec8daf39a8358bde7c3893a1bb22ef0e8f1",
+      "bytes": 131856
+    },
+    {
+      "path": "examples/assets/2d/video/mochi enhance/split_0_1_restored.props.yaml",
+      "sha256": "e21547a783077b685a4c04159240f05d5c39bc404132762726922546fdc6c930",
+      "bytes": 843
+    },
+    {
+      "path": "examples/assets/2d/video/mochi enhance/split_1_0_restored.mp4",
+      "sha256": "2e0a165a26f2fd2e14aeea5f09060f27e07ef12f28434443bd7001fc4e38b073",
+      "bytes": 198579
+    },
+    {
+      "path": "examples/assets/2d/video/mochi enhance/split_1_0_restored.props.yaml",
+      "sha256": "4fdb6b695dd3b7e5ad122f71305abf7aa250e8e538c3aa345f98aa9a2cf71373",
+      "bytes": 843
+    },
+    {
+      "path": "examples/assets/2d/video/mochi enhance/split_1_1_restored.mp4",
+      "sha256": "58913a3c9b402d420aac870f35488d3226f3eda2065e76456148933a0abf1bca",
+      "bytes": 380095
+    },
+    {
+      "path": "examples/assets/2d/video/mochi enhance/split_1_1_restored.props.yaml",
+      "sha256": "6dad8cd1481de94a355bd4dbfc0e2584ed6066ba6ac28f08fd894525c39827cf",
+      "bytes": 843
+    },
+    {
+      "path": "examples/assets/2d/video/mochi enhance/split_2_0_restored.mp4",
+      "sha256": "d9fa2ba6cf00e5854ca14cf55571ca3be5acb1e21a18bc58c107d66d73de78e2",
+      "bytes": 700297
+    },
+    {
+      "path": "examples/assets/2d/video/mochi enhance/split_2_0_restored.props.yaml",
+      "sha256": "ba3b1fcd021fd645699f5a85c770a63f0ce95889ec03d8164daef379ccc55d9d",
+      "bytes": 843
+    },
+    {
+      "path": "examples/assets/2d/video/mochi enhance/split_2_1_restored.mp4",
+      "sha256": "80e246cd5d1150dfa538a2b1839d5c3d3840981476eb749e3fd88304ddd06b21",
+      "bytes": 279630
+    },
+    {
+      "path": "examples/assets/2d/video/mochi enhance/split_2_1_restored.props.yaml",
+      "sha256": "f239a57d01d8751fc640ba037bfa5d38457d18d060e60a99d86b77ce7f2133bc",
+      "bytes": 843
+    },
+    {
+      "path": "examples/assets/2d/video/mochi enhance/split_3_0_restored.mp4",
+      "sha256": "2bf637ae115a00e484a3b1d94630f1aa87a2273bca600220982b2fc8b20b134f",
+      "bytes": 247409
+    },
+    {
+      "path": "examples/assets/2d/video/mochi enhance/split_3_0_restored.props.yaml",
+      "sha256": "2d428c6807c3d963bff5200cff207618e489787716688ebd89509e1c6d561536",
+      "bytes": 843
+    },
+    {
+      "path": "examples/assets/2d/video/mochi enhance/split_3_1_restored.mp4",
+      "sha256": "15ba70fdd8f8194a40ad29fa31d7de25d313b764567150ca3da89988c17a5499",
+      "bytes": 134611
+    },
+    {
+      "path": "examples/assets/2d/video/mochi enhance/split_3_1_restored.props.yaml",
+      "sha256": "343af2c015f21eef70fa20d974ab3f7f73286027c91e8fbee0e9629d6f0ab771",
+      "bytes": 843
+    },
+    {
+      "path": "examples/assets/2d/video/mochi enhance/split_4_0_restored.mp4",
+      "sha256": "ec2372c0f032526fbd14777afdad66928b7cc6d721dba8703b0322fed6b491f5",
+      "bytes": 330085
+    },
+    {
+      "path": "examples/assets/2d/video/mochi enhance/split_4_0_restored.props.yaml",
+      "sha256": "99afaeba0e3eaabed406612cf89df9936d8c70381ff51d81216f0345fb77d2bb",
+      "bytes": 843
+    },
+    {
+      "path": "examples/assets/2d/video/mochi enhance/split_4_1_restored.mp4",
+      "sha256": "f1af648ebe4ce2da7889a86c2f6c3c66b8761c8676dec69fa2768e7a3f60864e",
+      "bytes": 202793
+    },
+    {
+      "path": "examples/assets/2d/video/mochi enhance/split_4_1_restored.props.yaml",
+      "sha256": "066c716f6cb6ba6bc555b6362ba1ab5a4fffd3d38a43a201c711b5b80d6fd583",
+      "bytes": 843
+    },
+    {
+      "path": "examples/assets/2d/video/mochi2/cell_0_0.mp4",
+      "sha256": "7da652ac5819edd8cb28b1d4ecf95383819d409a49e1e7a85a9ee3ab021a10b7",
+      "bytes": 367412
+    },
+    {
+      "path": "examples/assets/2d/video/mochi2/cell_0_0.props.yaml",
+      "sha256": "f43855a2e581a6e72926a7331dbedaa27b18d20b530a1d9fc5f69f137eab2791",
+      "bytes": 823
+    },
+    {
+      "path": "examples/assets/2d/video/mochi2/cell_0_1.mp4",
+      "sha256": "c07de0eef8cf7fed56b30e8241a7470e74981670b7d63a510dbda6ac7303c3cb",
+      "bytes": 239214
+    },
+    {
+      "path": "examples/assets/2d/video/mochi2/cell_0_1.props.yaml",
+      "sha256": "1ad5af45e75518530d2114ad34c5f8454ee7f801ec10fb47790d7166311b6fb3",
+      "bytes": 823
+    },
+    {
+      "path": "examples/assets/2d/video/mochi2/cell_1_0.mp4",
+      "sha256": "ac848afe70b29fd63bc34446bc285475b599a8cced14cff6c4ca6c921a2e00a3",
+      "bytes": 321505
+    },
+    {
+      "path": "examples/assets/2d/video/mochi2/cell_1_0.props.yaml",
+      "sha256": "7005fa6a76f4772710313ed932c69734d5df53143384f1948d6876faa95d7514",
+      "bytes": 823
+    },
+    {
+      "path": "examples/assets/2d/video/mochi2/cell_1_1.mp4",
+      "sha256": "a01265289f24402a3d3297723c2a228f0f274e7bfe20a94b8077e7e3ba4b22da",
+      "bytes": 683120
+    },
+    {
+      "path": "examples/assets/2d/video/mochi2/cell_1_1.props.yaml",
+      "sha256": "88f35bee33de87d365566666b22f27e7b84fb85cc4a47c348b6323a85f1fdb0d",
+      "bytes": 823
+    },
+    {
+      "path": "examples/assets/2d/video/mochi2/cell_2_0.mp4",
+      "sha256": "fea5a85ead4e90d67abc218a920d5bb6206df7371551bd0adbe3070830b2188d",
+      "bytes": 862279
+    },
+    {
+      "path": "examples/assets/2d/video/mochi2/cell_2_0.props.yaml",
+      "sha256": "7f1618176f202a5cf904e1ced768ef515d4e65a779a7d11a975b811c88754764",
+      "bytes": 823
+    },
+    {
+      "path": "examples/assets/2d/video/mochi2/cell_2_1.mp4",
+      "sha256": "847f7bda3613ef3c2b3a97247484ea53f76be5c24dba3bbd6d3400b6a7ee94b9",
+      "bytes": 395393
+    },
+    {
+      "path": "examples/assets/2d/video/mochi2/cell_2_1.props.yaml",
+      "sha256": "3644625409e02a294e262f04164db1f8babd680c4f830e0bb13b44c7340b2f3e",
+      "bytes": 823
+    },
+    {
+      "path": "examples/assets/2d/video/mochi2/cell_3_0.mp4",
+      "sha256": "e7b7dc5376a51394ed0d0d5cab47b52025a856da9bc37f2a463b2b37739527de",
+      "bytes": 378571
+    },
+    {
+      "path": "examples/assets/2d/video/mochi2/cell_3_0.props.yaml",
+      "sha256": "23cbffb35b9609de34f3e59683cfeff5c118a7435bdf0796a3e724b3cb10d4c5",
+      "bytes": 823
+    },
+    {
+      "path": "examples/assets/2d/video/mochi2/cell_3_1.mp4",
+      "sha256": "e1cd579c471807aad567fdc0fcb841ac7ee18a24d16d9b1fd03c0c16ae33b8c8",
+      "bytes": 294262
+    },
+    {
+      "path": "examples/assets/2d/video/mochi2/cell_3_1.props.yaml",
+      "sha256": "f77078e34fa1cf118fa03869c8168a132eafe3974f7889999d6178317fa32d7c",
+      "bytes": 823
+    },
+    {
+      "path": "examples/assets/2d/video/mochi2/cell_4_0.mp4",
+      "sha256": "b0c4aacfa3633bb1d58e0d15ebd630d338f86c0801e5c6e681e011a1f47ebe41",
+      "bytes": 505347
+    },
+    {
+      "path": "examples/assets/2d/video/mochi2/cell_4_0.props.yaml",
+      "sha256": "27ca709f804a25d2f1abfd5c925db218fc301146870f226b9ed79ebcadbdd98f",
+      "bytes": 823
+    },
+    {
+      "path": "examples/assets/2d/video/mochi2/cell_4_1.mp4",
+      "sha256": "882dcd078052e14803353ea3b87ba8c2853eb44e3e9a263919dec842581f5cf9",
+      "bytes": 362863
+    },
+    {
+      "path": "examples/assets/2d/video/mochi2/cell_4_1.props.yaml",
+      "sha256": "1b2a3beb3d974c933dd8bc578db67ff387072917b404d10596ce345fb18fff90",
+      "bytes": 823
+    },
+    {
+      "path": "examples/assets/2d/video/player/1754246943__image__original.jpg.avif",
+      "sha256": "ad9533bbdfd65af8b89be1dbd0d1fec1aad00dc1a5aad7578841bb08eb02c5a5",
+      "bytes": 16802
+    },
+    {
+      "path": "examples/assets/2d/video/player/BLACK.jpg",
+      "sha256": "3596e92ebddf591d344b62bc6c55ab49b7d2b00fb17cd838a5708ec6c4cbae7a",
+      "bytes": 86361
+    },
+    {
+      "path": "examples/assets/2d/video/player/DASAI_GACHA_POSTER.png.webp",
+      "sha256": "5115f7ce856b69fc254b50915218bdd5d37f2f2fc7a0ac7530e26b641ae08c37",
+      "bytes": 365060
+    },
+    {
+      "path": "examples/assets/2d/video/player/DSC01325.jpg.jxl",
+      "sha256": "34aab4481f3844751512cab688fb6605caad85ac531e1c20fd49919d1fb34dc8",
+      "bytes": 1739
+    },
+    {
+      "path": "examples/assets/2d/video/player/IMG-8248.jpg.webp",
+      "sha256": "82d4d16803faf1d8fac0b435c7761a761bd602479a4cf711771dc756ea64d31b",
+      "bytes": 154162
+    },
+    {
+      "path": "examples/assets/2d/video/player/NOSTALGIABLUE.jpg.webp",
+      "sha256": "7d699b20bd662652c043a7ee42276d706f13b62749470b2b25657764be0f7f2a",
+      "bytes": 225878
+    },
+    {
+      "path": "examples/assets/2d/video/player/NOSTALGIARED.jpg.webp",
+      "sha256": "f30c2aa42a434bef75b76ef86ecb1669a396d4777ea70a829b871a4a76da09b1",
+      "bytes": 248626
+    },
+    {
+      "path": "examples/assets/2d/video/player/PINK.jpg",
+      "sha256": "b7796a9c0b7c3a52d16fbf243d71b3c9722362a9c64dd01b2f041b8b901a33fa",
+      "bytes": 143257
+    },
+    {
+      "path": "examples/assets/2d/video/player/RED.jpg",
+      "sha256": "0c4f9b2992f7ed7571a0bcf63a6f629e9e952f373edefa623d1ae26860a2c2fc",
+      "bytes": 172970
+    },
+    {
+      "path": "examples/assets/2d/video/player/battleshipgrey.jpg.webp",
+      "sha256": "75b8c34edc8613ab2775d92abbd133d993601b749de82ca9fca9962ffa3ddcb5",
+      "bytes": 194886
+    },
+    {
+      "path": "examples/assets/2d/video/player/boostblue.jpg",
+      "sha256": "9dc8f73ecc6eef778ca6dff3011c06b63efe506c5b2e19f7cc3f9d58ba09612b",
+      "bytes": 171719
+    },
+    {
+      "path": "examples/assets/2d/video/player/clear2.jpg",
+      "sha256": "ded70d428ab44e4ffdf85a42951b660496fdf2615cbae4b01fc6fe4884eca425",
+      "bytes": 209441
+    },
+    {
+      "path": "examples/assets/2d/video/player/ezgif.com-gif-maker_11.gif",
+      "sha256": "7956cdb54093ba26f6aaaae856cae604ccf40e83db9bbf181779d4dfe386b7b3",
+      "bytes": 1266001
+    },
+    {
+      "path": "examples/assets/2d/video/player/ezgif.com-video-to-gif_4.gif",
+      "sha256": "3a54e4076eb776bc0f85c96b3335678f6b9a6a4ab7df2ead4070f30e26d288d7",
+      "bytes": 5426415
+    },
+    {
+      "path": "examples/assets/2d/video/player/green.jpg.webp",
+      "sha256": "f9fe222e6a9e8b66bf2aa4c036a3d5568516deaaa23d0f47e8563bed89d6be6d",
+      "bytes": 497888
+    },
+    {
+      "path": "examples/assets/2d/video/player/kenmeri_A.jpg.webp",
+      "sha256": "e34ebf799c1866f5e99c4e7a109f34cfaa3cdf2e891c71b4548eda2a49183885",
+      "bytes": 29812
+    },
+    {
+      "path": "examples/assets/2d/video/player/purple.jpg",
+      "sha256": "64e590658cb6a1d066696140b4e865f885027cd4dbe52894d9918a1b521116a1",
+      "bytes": 810844
+    },
+    {
+      "path": "examples/assets/2d/video/player/tv1.png",
+      "sha256": "10da6b3ddf3d42bd7c6cfa46d7f9a033f07eed9578d4fcd43950f18cfc8856e9",
+      "bytes": 497830
+    },
+    {
+      "path": "examples/assets/2d/video/player/yellow-3.jpg.webp",
+      "sha256": "275af6b5a5c0956647fcbec5e69d1644c21661efd20388fab0278cb39fd86970",
+      "bytes": 448064
+    },
+    {
+      "path": "examples/assets/2d/video/player/yellow.jpg.webp",
+      "sha256": "fbfc074389173f2a78e315af5c0090ea7c84a340973a50b20966af9349a55f33",
+      "bytes": 457174
+    },
+    {
+      "path": "examples/assets/2d/video/procedual reference/643B7060-2E4F-4DF7-82D0-6F9693D176B6.jpg.webp",
+      "sha256": "a111b6f347d22ca25e0aa39cdbf9fb6ed66e78496b4756aa9f5d0eb903e7ad13",
+      "bytes": 417312
+    },
+    {
+      "path": "examples/assets/2d/video/procedual reference/DSC00823.jpg",
+      "sha256": "27cb1f77051e4ca8f9921c5a69d6575732db340e4c4c42d2ab2bf6a490834f43",
+      "bytes": 576230
+    },
+    {
+      "path": "examples/assets/2d/video/procedual reference/DSC00825-2.jpg.webp",
+      "sha256": "a769e1f253457b7dc9dc4917eddf1940fecef26f686ef5a51a5b507c313a440c",
+      "bytes": 492642
+    },
+    {
+      "path": "examples/assets/2d/video/procedual reference/DSC00944.jpg.webp",
+      "sha256": "42e0d3705a6202fcc2fc5a4cac033ff3e57066f1035a2226aba25ec90cd3e409",
+      "bytes": 104208
+    },
+    {
+      "path": "examples/assets/2d/video/procedual reference/DSC00963.jpg.webp",
+      "sha256": "3a17582afa278fb15d42edf7c371002179bf3f3f17ce6d19d022b0d4cb9dd945",
+      "bytes": 97900
+    },
+    {
+      "path": "examples/assets/2d/video/procedual reference/DSC00972.jpg.webp",
+      "sha256": "a751e99ce691838374d532e82341749baffa32757e4b243a38902dcfab7776b4",
+      "bytes": 55862
+    },
+    {
+      "path": "examples/assets/2d/video/procedual reference/DSC00988.jpg.webp",
+      "sha256": "2b4be39a29fdee715b91eae682e7392512408c6e914629a06f0d6a3b6663d959",
+      "bytes": 126856
+    },
+    {
+      "path": "examples/assets/2d/video/procedual reference/DSC01006.jpg.webp",
+      "sha256": "08d98da83b87f35a0e14d5d6b70a09cb99108493326ee3a92cc99c7b01d22fba",
+      "bytes": 96016
+    },
+    {
+      "path": "examples/assets/2d/video/procedual reference/DSC01179.jpg",
+      "sha256": "11d59d0e23d31b317e60551575855cfa6d3209e5299493e46a2a0de70b193b6e",
+      "bytes": 617936
+    },
+    {
+      "path": "examples/assets/2d/video/readme.tx",
+      "sha256": "c0dc51c67ea076684d537f37f5ced6e8cc860aa83ee7e35df23f54f10f17a776",
+      "bytes": 162
+    },
+    {
+      "path": "examples/assets/ARCADP001.obj",
+      "sha256": "f357590c58b2b25ff2d117cbdb17b6a051856aa5ba6eaa7459bb3d0fc66699f2",
+      "bytes": 1766153
+    },
+    {
+      "path": "examples/dino_screen_2d.character.anima",
+      "sha256": "159129c84781d870e19ffbf5bbf09f22e88110a0594a44adf20925cd61390359",
+      "bytes": 840
+    },
+    {
+      "path": "examples/extensions/parametric-linkage.animaext/extension.yaml",
+      "sha256": "71ffa369ec3dab86e6f4bf09aa48db04d67066503be07eca1b2e641102cf546f",
+      "bytes": 683
+    },
+    {
+      "path": "examples/extensions/parametric-linkage.animaext/linkage.yaml",
+      "sha256": "ae633b0ea2e5d9437a4801ec34fb683e84bb1001f74e5093ef908826b88bac9d",
+      "bytes": 2508
+    },
+    {
+      "path": "examples/extensions/udp-wire-output.animaext/adapter.py",
+      "sha256": "8aad0fa8c2e399b62378d9ed67b7ae1aabb5fff01bb985c6eab511315b3e1970",
+      "bytes": 2331
+    },
+    {
+      "path": "examples/extensions/udp-wire-output.animaext/extension.yaml",
+      "sha256": "d37acd8e35a0de687e58cd18f0be05fc75f118842e725dc57506c634e25bfb00",
+      "bytes": 689
+    },
+    {
+      "path": "examples/geometry_mates_demo.character.anima",
+      "sha256": "bcc8ef7e84cb7b4572a2eb9ed9c073f1a105a2e15deffe77a7f6f3876555c453",
+      "bytes": 2180
+    },
+    {
+      "path": "examples/pan_tilt_head.character.anima",
+      "sha256": "203fe33de3b8cc09e66ec2d06a297916ef099a64fec0414ee854b0bd0e45f80e",
+      "bytes": 2309
+    },
+    {
+      "path": "examples/patrol_and_greet.scene.anima",
+      "sha256": "565f47abb08f589151b2708d46c3c31320edce9eedfee03dfe4ee81c41b3526e",
+      "bytes": 3189
+    },
+    {
+      "path": "examples/pick_and_wave.scene.anima",
+      "sha256": "a1ef297ced51172d2baa0257c4829a0b0015541332cb124df397299aa834aa1f",
+      "bytes": 2393
+    },
+    {
+      "path": "examples/pixel_face_2d.character.anima",
+      "sha256": "660a978ca26386710f5860e633db09ec9bd0166053716552fe818a2e92eb6f09",
+      "bytes": 982
+    },
+    {
+      "path": "examples/pixel_pet_2d.character.anima",
+      "sha256": "53b87b590782d03a33e96b0ff1e8cbf7412b0432108686a609e0a129d98713e5",
+      "bytes": 1079
+    },
+    {
+      "path": "examples/rc_car.character.anima",
+      "sha256": "a66d104ed20ba8c1462b215ffe1bb4c41bb9301906709f56aa455624e6da56a6",
+      "bytes": 2770
+    },
+    {
+      "path": "examples/six_axis_arm.character.anima",
+      "sha256": "c51a7d48ff6bc5856b482f4e58bc1cfad9d8f8c3fd0222415fceadcaea4628df",
+      "bytes": 4244
+    },
+    {
+      "path": "examples/six_axis_arm_dh.character.anima",
+      "sha256": "f99f38e7b201afd662131b9eb3ebe29fb8fec11ed3799e5e58556c72147581f6",
+      "bytes": 3489
+    },
+    {
+      "path": "examples/walle_style.character.anima",
+      "sha256": "1d414e0a0e5f45f565cb0dc991ff1ed343663eb566b98885a8c0a767edaed76c",
+      "bytes": 2190
+    },
+    {
+      "path": "pyproject.toml",
+      "sha256": "a80963ad249ee721344bbc46dbf290ff3b63a25e0c6cbd1dd45d919bfd84e6e7",
+      "bytes": 1861
+    },
+    {
+      "path": "scripts/build-native-worker.py",
+      "sha256": "af741960a6dae2e32f92792553fdb4738476b79331271759d3b94883d5575506",
+      "bytes": 1177
+    },
+    {
+      "path": "tools/fetch-vendor.py",
+      "sha256": "cad0cf0accc292879d0497999cc3094e67fd7dbd2e3b19d70aa746da3bf795f8",
+      "bytes": 1223
+    },
+    {
+      "path": "vendor-manifest.json",
+      "sha256": "b6268c30127a92d56d570755fcc98830a2aa020a7bda1d0318eed8d778e7d00a",
+      "bytes": 1226
+    },
+    {
+      "path": "web/.gitignore",
+      "sha256": "790e3169bc19b046fe55ba1da6d13b976c28363c8c00462a2195fe5faf260910",
+      "bytes": 20
+    },
+    {
+      "path": "web/index.html",
+      "sha256": "3411218148a183ef4882fd8bd5f85ccfa96860e9987bb94184b635f25a8424ef",
+      "bytes": 409
+    },
+    {
+      "path": "web/package-lock.json",
+      "sha256": "022f059617df5fe76533d98595178b61d37f8c0e4c3e8c0ad12fc0e3863ac22d",
+      "bytes": 64663
+    },
+    {
+      "path": "web/package.json",
+      "sha256": "d23ba2ed5d4270d31482138c8d15404552a3b7422997ffb230e5836cac3b94d5",
+      "bytes": 762
+    },
+    {
+      "path": "web/public/favicon.ico",
+      "sha256": "0d7ba0263ad0a55b407cdda1949eacf6bb4e6c30597cace3847c59b161e05300",
+      "bytes": 10542
+    },
+    {
+      "path": "web/src/AnimationFileBar.tsx",
+      "sha256": "e25285ec49583fb37ed456d697f33f3290073d91e6c1d006b7c728482d609b4b",
+      "bytes": 1556
+    },
+    {
+      "path": "web/src/App.tsx",
+      "sha256": "dfe3daf6ea5c1234b56e1ac2fd4477077b2a7cfdd1e2bd88c590bfb2ebd067d3",
+      "bytes": 33856
+    },
+    {
+      "path": "web/src/MateDialog.tsx",
+      "sha256": "f35134fd483d5f202d639948951e729cb4eb8f11751eaae95c3f69f5b81b6d70",
+      "bytes": 3386
+    },
+    {
+      "path": "web/src/PosePanel.tsx",
+      "sha256": "5e40faa80f160cf659f75202f1df8df073afd4ab0e0b20ac18313b3a47af0c12",
+      "bytes": 1186
+    },
+    {
+      "path": "web/src/RelationDialog.tsx",
+      "sha256": "68dc251888a9c55f20b0858cb70a0f3aba975b4d81ea8459007d755be15458ee",
+      "bytes": 2454
+    },
+    {
+      "path": "web/src/RelationPresentation.test.mjs",
+      "sha256": "e395fc04b7db6a8669ab183a777b643ca5d01d036af42ca199f491dfb4f63359",
+      "bytes": 1648
+    },
+    {
+      "path": "web/src/RelationPresentation.ts",
+      "sha256": "b4eeca9051b33e8588841962f55d406566783986177302ff661dceffe9b687f3",
+      "bytes": 1197
+    },
+    {
+      "path": "web/src/TimelinePanel.tsx",
+      "sha256": "171c5e68f9ebdd5f78361239797d5e2125cd4041b56775213a638598c4cfe8de",
+      "bytes": 1387
+    },
+    {
+      "path": "web/src/app.css",
+      "sha256": "8b03506319a944bfa0b76a914c51947d4ee39545582131d2d80bb7e9a4251fa3",
+      "bytes": 1526
+    },
+    {
+      "path": "web/src/create-document.ts",
+      "sha256": "8fef98e770f1076f9efe0f72df7930c517dee8b25e7acf5d20ca58d0156bc128",
+      "bytes": 573
+    },
+    {
+      "path": "web/src/engine.ts",
+      "sha256": "1368b26604a828dddbd3fbe63ade68c42e6cc8114d850ebe6e55d3d1f64e8779",
+      "bytes": 6683
+    },
+    {
+      "path": "web/src/main.tsx",
+      "sha256": "c0246c7c60c5aa05fd1dfe2e49e83032428243a2340d429938ad288df02363ef",
+      "bytes": 297
+    },
+    {
+      "path": "web/src/viewport.ts",
+      "sha256": "0f2a3eb7a3cb54a24b6b618006f3c596dae6404af9e651e49b4f8cf7874424c8",
+      "bytes": 16720
+    },
+    {
+      "path": "web/tsconfig.json",
+      "sha256": "5d3060cf94a514a1b789181861dd70810033dc3a89c7c9f12890655e72f6fa0a",
+      "bytes": 361
+    },
+    {
+      "path": "web/vite.config.ts",
+      "sha256": "35463e6408ca07d5a8cfd918823ff69edd2463e270c664e69e45ea96d049e7f7",
+      "bytes": 825
+    }
+  ]
+}
